@@ -1,0 +1,93 @@
+/* imagen de vida  */
+.img_vida {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 22px;
+    width: 149.6px;
+    height: 150px;
+}
+/* imagen de gmm */
+.img_gmm {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 10px !important;
+    width: 149.6px;
+    height: 150px;
+}
+/* imagen de apoyo  */
+.img_m_apoyo {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 10px !important;
+    width: 149.6px;
+    height: 150px;
+}
+/* imagen de siniestros */
+.img_siniestros {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 149.6px;
+    height: 150px;
+}
+
+/* imagen de autos  */
+.img_auto {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 22px;
+    width: 149.6px;
+    height: 150px;
+}
+
+/* div de vida  */
+.div_vida {
+    margin-top: 60px;
+    height: 230px;
+}
+
+/* div de siniestros */
+.div_siniestros {
+    margin-top: 60px;
+    height: 230px;
+}
+
+/* div de descargas  */
+.div_descarga {
+    margin-top: 80px;
+}
+
+/* div de apoyo  */
+.div_apoyo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* div de gmm  */
+.div_gmm {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* div de autoi  */
+.div_auto {
+    margin-top: 60px;
+    height: 230px;
+}
+/* div de pymes  */
+.div_pymes {
+    margin-top: 5px;
+}
+
+label {
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+ 
+/* etiquta siniestros*/
+ 
+.labelSiniestros {
+    font-size: 20px;
+    letter-spacing: 4px;
+    color: #fff;
+    font-weight: bold;
+}

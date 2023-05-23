@@ -1,0 +1,126 @@
+/* ESTILOS GENERALES DEL BODY  */ 
+html, body {
+    background-image: url("../img/fondoIntraGAM.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    width: 100%;
+    font-family: "Segoe UI Regular", "Segoe UI" !important;
+    padding: 0 !important;
+}
+/* MARGEN PARA LA TABLA  */ 
+#tablaDinamicaLoadAuto {
+    margin-left: -43px !important;
+}
+/* margen para la clase h2Consultor  */ 
+.h2Consultor {
+    margin-left: -43px !important;
+}
+/* MARGEN PARA LA TABLA  */
+#tablaDinamicaLoadAuto_length {
+    margin-left: -43px !important;
+}
+
+#tablaDinamicaLoadAuto_filter {
+    margin-left: -43px !important;
+}
+
+#tablaDinamicaLoadAuto_info {
+    margin-left: -43px !important;
+}
+
+#tablaDinamicaLoadAuto_paginate {
+    margin-left: -43px !important;
+}
+
+.tdAutos {
+    background-color: rgb(113, 150, 208);
+    text-align: center;
+    vertical-align: middle !important;
+    color: #fff;
+    font-weight: lighter;
+}
+/* ESTILOS PARA LOS TD DE LAS TABLAS  */
+td {
+    text-align: center;
+    vertical-align: middle !important;
+    font-size: 10pt;
+    background: #f6f7f7;
+}
+/* ESTILOS PARA LOS BOTONES CON LA CLASE BTN-PRIMARY  */
+button.btn.btn-primary {
+    outline: none !important;
+    background-color: rgb(113, 150, 208);
+    font-weight: lighter;
+}
+
+/* estilos de texto para la etiqueta del modal  */
+#myModalLabel{
+    font-weight: bold;
+}
+
+.close {
+    outline: none;
+}
+
+#agregar1 {
+    outline: none;
+}
+
+#cancelar {
+    outline: none !important;
+}
+/*  estilo para la etiqueta a   */
+a {
+    outline: none !important;
+}
+
+#id {
+    outline: none !important;
+    text-decoration: none !important;
+}
+
+#aceptar_a {
+    outline: none !important;
+}
+
+/*  estilo para las imagenes  */
+img.semaforoR {
+    width: 9px !important;
+    height: 9px !important;
+}
+
+img.semaforoV {
+    width: 9px !important;
+    height: 9px !important;
+}
+
+img.semaforoA {
+    width: 9px !important;
+    height: 9px !important;
+}
+
+.iconoIntra {
+    width: 30px !important;
+    margin-top: 11px !important;
+}
+
+/* ALERTAS */
+
+.Custom_Cancel>.sa-button-container>.cancel {
+    background-color: rgb(85, 88, 89);
+}
+
+/* ICONO DE USUARIO */
+
+.imgUsuario {
+	width: 40px;
+	height: 40px;
+	margin-top: -11px;
+	border-radius: 120px;
+}
+
+.aImgUsuario {
+    margin-bottom: -10px;
+}

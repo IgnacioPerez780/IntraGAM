@@ -1,0 +1,311 @@
+html, body {
+    background-image: url("../img/fondoIntraGAM.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    width: 100%;
+    font-family: "Segoe UI Regular", "Segoe UI" !important;
+    padding: 0 !important;
+}
+
+.iconoIntra {
+    width: 30px !important;
+    margin-top: 11px !important;
+}
+
+button.btn.btn-info {
+    border: none;
+    outline: none !important;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 400px;
+    margin-top: -90px;
+    background-color: #7196d0;
+}
+
+select {
+    width: 360px !important;
+    font-size: 14 !important;
+    letter-spacing: 0.9pt;
+}
+
+small {
+    font-weight: normal;
+    font-size: 14px !important;
+    letter-spacing: 1pt;
+}
+
+label {
+    font-size: 15px !important;
+    letter-spacing: 0.5pt;
+}
+
+/* TABLA GENERAL */
+
+td {
+    font-weight: bold;
+    font-size: 15px !important;
+    letter-spacing: 1pt;
+    letter-spacing: 1pt;
+}
+
+.table {
+    margin-top: 30px;
+    width: 850PX;
+    margin: 0 auto;
+    empty-cells: hide;
+    border-collapse: separate;
+    border-spacing: 5px;
+}
+
+/* TABLA PRIMA ACOMULADA */
+
+#tabla_primaAcomulada {
+    width: 630px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    text-align: center;
+    float: right;
+    margin-top: -320px;
+}
+
+#tabla_primaAcomulada_vG {
+    width: 630px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    text-align: center;
+    float: right;
+    margin-top: -393px;
+}
+
+#tabla_primaAcomulada_vInd {
+    width: 630px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    text-align: center;
+    float: right;
+    margin-top: -393px;
+}
+
+#tabla_primaAcomuladaGmm {
+    width: 630px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    text-align: center;
+    float: right;
+    margin-top: -320px;
+    margin-right: -55px;
+}
+
+.labelAltP {
+    font-weight: lighter;
+    margin-top: 23px;
+    font-size: 15px !important;
+}
+
+.labelAltPGmm {
+    font-weight: lighter;
+    margin-top: 25px;
+    font-size: 15px !important;
+}
+
+.labelP {
+    font-size: 15px !important;
+}
+
+.labelD {
+    font-size: 15px !important;
+}
+
+.gmPesos {
+    font-size: 15px;
+    font-weight: lighter;
+    letter-spacing: 1pt !important;
+}
+
+.gmDolares {
+    font-size: 15px;
+    font-weight: lighter;
+    letter-spacing: 1pt !important;
+}
+
+/* TABLA RESULTADOS ADICIONALES / VIDA */
+
+#resultAdicionales {
+    width: 900px;
+    margin: 0 auto !important;
+    margin-bottom: 50px !important;
+}
+
+.estatus {
+    width: 225px !important;
+}
+
+.tipoSolicitud {
+    width: 235px !important;
+}
+
+.tFolios {
+    width: 225px !important;
+}
+
+.nFolio {
+    width: 225px !important;
+}
+
+.totalFolios {
+    font-size: 35px !important;
+    letter-spacing: 1pt;
+}
+
+.tFoliosAcomulados {
+    font-size: 20px;
+    text-align: right;
+    margin-top: 15px;
+    letter-spacing: 1.5pt;
+}
+
+.altaPoliza {
+    font-weight: normal;
+    font-size: 14px !important;
+    letter-spacing: 1.5pt;
+}
+
+.movimientos {
+    font-weight: normal;
+    font-size: 15px !important;
+    letter-spacing: 1.5pt;
+}
+
+.pagos {
+    font-weight: normal;
+    font-size: 15px !important;
+    letter-spacing: 1.5pt;
+}
+
+/* TABLA RESULTADOS ADICIONALES / AUTOS */
+
+.nNegocio {
+    font-weight: normal;
+    font-size: 15px !important;
+    letter-spacing: 1.5pt;
+}
+
+/* TABLA RESULTADOS ADICIONALES / GMM */
+
+.altaPolizaN {
+    font-weight: normal;
+    font-size: 15px !important;
+    letter-spacing: 1.5pt;
+}
+
+.altaPolizaI {
+    font-weight: normal;
+    font-size: 15px !important;
+    letter-spacing: 1.5pt;
+}
+
+/* TABLA RESULTADOS ADICIONALES / SINIESTROS */
+
+.tGmm {
+    margin-top: 18.75px;
+    letter-spacing: 1pt;
+    font-size: 14px;
+}
+
+.labelGmm {
+    letter-spacing: 1pt;
+    font-size: 15px !important;
+}
+
+.gmm {
+    font-weight: normal;
+    font-size: 15px !important;
+    letter-spacing: 1.5pt;
+}
+
+.autos {
+    font-weight: normal;
+    font-size: 15px !important;
+    letter-spacing: 1.5pt;
+}
+
+.vida {
+    font-weight: normal;
+    font-size: 15px !important;
+    letter-spacing: 1.5pt;
+}
+
+.danos {
+    font-weight: normal;
+    font-size: 15px !important;
+    letter-spacing: 1.5pt;
+}
+
+.lineaNegocio {
+    width: 270px !important;
+}
+
+#resultAdicionaleS {
+    width: 940px;
+    margin: 0 auto !important;
+}
+
+#tabla_montoR {
+    width: 550px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    text-align: center;
+    float: right;
+    margin-top: -320px;
+}
+
+/* CALENDARIO SEMANAL */
+
+#date1Sg {
+    font-size: 15px !important;
+}
+
+#date2Sg {
+    font-size: 15px !important;
+}
+
+#date1Sind {
+    font-size: 15px !important;
+}
+
+#date2Sind {
+    font-size: 15px !important;
+}
+
+/* CALENDARIO SEMANAL / VIDA */
+
+#date1Sg_v {
+    font-size: 15px !important;
+}
+
+#date2Sg_v {
+    font-size: 15px !important;
+}
+
+#date1Sind_v {
+    font-size: 15px !important;
+}
+
+#date2Sind_v {
+    font-size: 15px !important;
+}
+
+/* ICONO DE USUARIO */
+
+.imgUsuario {
+    width: 40px;
+    height: 40px;
+    margin-top: -11px;
+    border-radius: 120px;
+}
+
+.aImgUsuario {
+    margin-bottom: -10px;
+}

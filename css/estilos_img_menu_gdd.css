@@ -1,0 +1,95 @@
+/*  estido para la imagen de vida*/
+.img_vida {
+    display: flex;
+    margin: 0 auto;
+    width: 149.6px;
+    height: 150px;
+    margin-top: 20px;
+}
+/*  estido para la imagen de gmm*/
+.img_gmm {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 10px !important;
+    width: 149.6px;
+    height: 150px;
+}
+/*  estido para la imagen de dregistro*/
+
+.img_registro {
+    display: flex;
+    margin: 0 auto;
+    width: 149.6px;
+    height: 150px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.img_mesaControl {
+    display: flex;
+    margin: 0 auto;
+    width: 149.6px;
+    height: 150px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+/*  estido para la imagen de siniestros*/
+
+.img_siniestros {
+    display: flex;
+    margin: 0 auto;
+    width: 149.6px;
+    height: 150px;
+}
+/*  estido para la imagen de autos*/
+
+.img_auto {
+    display: flex;
+    margin: 0 auto;
+    width: 149.6px;
+    height: 150px;
+    margin-top: 5px;
+    margin-bottom: 3%;
+}
+
+.img_m_apoyo {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 149.6px;
+    height: 150px;
+}
+/* estilos para cada div */
+
+.div_vida {
+    margin-top: 100px;
+}
+
+.div_registro {
+    margin-top: 40px;
+}
+
+.div_mesaControl {
+    margin-top: 40px;
+}
+
+.div_apoyo {
+    margin-top: 60px;
+}
+
+label {
+    letter-spacing: 5px;
+}
+
+.labelSiniestros {
+    font-size: 20px;
+    letter-spacing: 5px;
+    color: #fff;
+}
+
+.labelGmm {
+    font-size: 20px;
+    letter-spacing: 5px;
+    color: #fff;
+}

@@ -1,0 +1,191 @@
+/*  estilos generales del body  */ 
+html, body {
+    background-image: url("../img/fondoIntraGAM.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    width: 100%;
+    font-family: "Segoe UI Regular", "Segoe UI" !important;
+    padding: 0 !important;
+}
+/*  estilos para el icono de intragam  */ 
+.iconoIntra {
+    width: 30px !important;
+    margin-top: 11px !important;
+}
+/*  estilos para el DIV   */ 
+.div {
+    margin-top: 50px;
+}
+
+.close {
+    outline: none !important;
+    border: none !important;
+}
+
+/*  estilos para select */ 
+select {
+    width: 360px !important;
+    font-size: 14px !important;
+    letter-spacing: 0.9pt;
+}
+
+
+/*  estilos generales para los buttons  */ 
+button.btn.btn-info {
+    border: none;
+    outline: none !important;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 260px;
+    background-color: #7196d0;
+}
+
+#seleccion2 {
+    width: 360px !important;
+}
+
+.form-control {
+    font-size: 14px;
+}
+
+small {
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 1pt;
+}
+
+label {
+    font-size: 15px;
+    letter-spacing: 0pt;
+}
+
+.table {
+    margin-top: 30px;
+}
+
+td {
+    font-weight: bold;
+}
+
+label {
+    font-size: 15px;
+}
+
+#botonP {
+    font-size: 15px;
+}
+
+#respG {
+    font-size: 15px;
+    margin-top: 38px;
+}
+
+#respG2 {
+    font-size: 15px;
+    margin-top: 75px;
+}
+
+#respInd {
+    font-size: 15px;
+    margin-top: 40px;
+}
+
+#respInd2 {
+    font-size: 15px;
+    margin-top: 50px;
+}
+
+/* BOTONES PARA CAMBIAR GRAFICOS */
+
+#botonGMM {
+    font-size: 15px;
+    outline: none;
+}
+
+#botonAUTOS {
+    font-size: 15px;
+    outline: none;
+}
+
+#botonDAÑOS {
+    font-size: 15px;
+    outline: none;
+}
+
+#botonVIDA {
+    font-size: 15px;
+    outline: none;
+}
+
+/* GRAFICAS DE VIDA */
+
+#respG_v {
+    font-size: 15px;
+    margin-top: 38px;
+}
+
+#respG2_v {
+    font-size: 15px;
+    margin-top: 90px;
+}
+
+#respInd_v {
+    font-size: 15px;
+    margin-top: 35px;
+}
+
+#respInd2_v {
+    font-size: 15px;
+    margin-top: 70px;
+}
+
+/* CALENDARIO SEMANAL */
+
+#date1Sg {
+    font-size: 15px;
+}
+
+#date2Sg {
+    font-size: 15px;
+}
+
+#date1Sind {
+    font-size: 15px;
+}
+
+#date2Sind {
+    font-size: 15px;
+}
+
+/* CALENDARIO SEMANAL / VIDA */
+
+#date1Sg_v {
+    font-size: 15px;
+}
+
+#date2Sg_v {
+    font-size: 15px;
+}
+
+#date1Sind_v {
+    font-size: 15px;
+}
+
+#date2Sind_v {
+    font-size: 15px;
+}
+
+/* ICONO DE USUARIO */
+
+.imgUsuario {
+    width: 40px;
+    height: 40px;
+    margin-top: -11px;
+    border-radius: 120px;
+}
+
+.aImgUsuario {
+    margin-bottom: -10px;
+}

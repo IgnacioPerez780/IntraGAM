@@ -1,0 +1,80 @@
+/* imagen de vida  */
+
+.img_vida {
+    display: flex;
+    margin: 0 auto;
+    width: 149.6px;
+    height: 150px;
+    margin-top: 20px;
+}
+/* imagen de gmm */
+
+.img_gmm {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 10px !important;
+    width: 149.6px;
+    height: 150px;
+}
+/* imagen de apoyo */
+
+.img_m_apoyo {
+    display: flex;
+    margin: 0 auto;
+    width: 149.6px;
+    height: 150px;
+    margin-top: 25px;
+    margin-bottom: 40px !important;
+}
+/* imagen de respaldo */
+
+.img_respaldoD {
+    display: flex;
+    margin: 0 auto;
+    width: 149.6px;
+    height: 150px;
+    margin-top: 25px;
+    margin-bottom: 40px !important;
+}
+/* imagen de siniestros */
+
+.img_siniestros {
+    display: flex;
+    margin: 0 auto;
+    width: 149.6px;
+    height: 150px;
+}
+
+/* imagen de auto */
+
+.img_auto {
+    display: flex;
+    margin: 0 auto;
+    width: 149.6px;
+    height: 150px;
+}
+
+/* estilos de los divs */
+
+.div_vida {
+    margin-top: 100px;
+}
+
+.div_apoyo {
+    margin-top: 40px;
+}
+
+.div_respaldoD {
+    margin-top: 40px;
+}
+
+label {
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+.labelSiniestros {
+    font-size: 20px;
+    letter-spacing: 5px;
+    color: #fff;
+}

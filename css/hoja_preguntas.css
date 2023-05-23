@@ -1,0 +1,92 @@
+html,
+body {
+    background-image: url("../img/fondoIntraGAM.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    width: 100%;
+    font-family: "Segoe UI Regular", "Segoe UI" !important;
+    padding: 0 !important;
+}
+
+.iconoIntra {
+    width: 30px !important;
+    margin-top: 11px !important;
+}
+
+/* ICONO DE USUARIO */
+
+.imgUsuario {
+    width: 40px;
+    height: 40px;
+    margin-top: -11px;
+    border-radius: 120px;
+}
+
+.aImgUsuario {
+    margin-bottom: -10px;
+}
+
+/* PREGUNTAS - DISENO/SECCION */
+
+.container {
+    width: 60%;
+    margin-top: 40px;
+}
+
+.icono {
+    height: 35px;
+    width: 35px;
+}
+
+/* ICONO DE + - DEL COLLAPSE */
+
+.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 17px;
+    letter-spacing: 10px;
+    border-radius: 15px;
+}
+
+.active,
+.collapsible:hover {
+    background-color: #555;
+}
+
+.collapsible:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+    font-size: 23px;
+    margin-top: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+/* FORMATO DE LETRAS */
+
+li {
+    text-align: justify;
+}
+
+h3 {
+    font-size: 17px;
+    text-align: justify;
+    letter-spacing: 2px;
+    margin-left: 18px;
+    font-weight: bold;
+    margin-top: 12px;
+    margin-bottom: 20px;
+}

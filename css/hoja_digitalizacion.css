@@ -1,0 +1,96 @@
+/*  estilos del body  */
+html, body {
+    background-image: url("../img/fondoIntraGAM.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    width: 100%;
+    font-family: "Segoe UI Regular", "Segoe UI" !important;
+    padding: 0 !important;
+}
+
+/* estilos para el icono de intragam  */
+.iconoIntra {
+    width: 30px !important;
+    margin-top: 11px !important;
+}
+
+/* Digitalizacion Cartera */
+
+#nueva {
+    outline: none;
+    background-color: transparent;
+    margin-top: 20px;
+    font-weight: bold !important;
+    margin-top: 20px !important;
+    margin-left: -12px;
+    margin-bottom: 12px;
+}
+
+/* estilos para el id de ejemplo  */
+#example {
+    background: #fff;
+    margin-top: 20px;
+}
+
+a {
+    outline: none !important;
+}
+
+ /* estilos para los td de las tablas*/
+td {
+    vertical-align: middle !important;
+    text-align: center;
+}
+/* estilos  th */
+th {
+    text-align: center;
+    background-color: rgb(113, 150, 208);
+    color: #fff;
+}
+/*  estilos para el H4  */
+h4 {
+    font-weight: bold;
+    font-size: 16px !important;
+}
+
+textarea {
+    outline: none !important;
+    resize: none;
+    height: 35px !important;
+}
+
+input.btn.btn-primary {
+    outline: none !important;
+    background-color: rgb(113, 150, 208);
+    font-weight: lighter;
+    margin-bottom: -15px !important;
+}
+
+.modal-content {
+    width: 380px !important;
+    position: absolute;
+    margin-top: 275px !important;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.comentarios {
+    height: 70px !important;
+}
+
+
+/* ICONO DE USUARIO */
+
+.imgUsuario {
+    width: 40px;
+    height: 40px;
+    margin-top: -11px;
+    border-radius: 120px;
+}
+
+.aImgUsuario {
+    margin-bottom: -10px;
+}

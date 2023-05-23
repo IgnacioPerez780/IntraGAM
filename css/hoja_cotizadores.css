@@ -1,0 +1,267 @@
+html, body {
+    background-image: url("../img/fondoIntraGAM.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    width: 100%;
+    font-family: "Segoe UI Regular", "Segoe UI" !important;
+    padding: 0 !important;
+}
+
+.close {
+    outline: none;
+}
+
+.txt_vida {
+    font-size: 17px;
+}
+
+.txt_gmm {
+    font-size: 17px;
+}
+
+.txt_consola {
+    font-size: 17px;
+}
+
+tbody td {
+    font-size: 16px;
+    vertical-align: middle !important;
+    border: none !important;
+    padding: 12px !important;
+    letter-spacing: 2px
+}
+
+.img_mac_win {
+    width: 100px;
+    height: 40px;
+}
+
+.img_windows_vida {
+    width: 39px;
+    height: 30px;
+}
+
+.img_windows_gmm {
+    width: 39px;
+    height: 30px;
+}
+
+.img_windows_consola {
+    width: 39px;
+    height: 30px;
+}
+
+.img_mac_vida {
+    width: 69px;
+    height: 40px;
+}
+
+.iconoIntra {
+    width: 30px !important;
+    margin-top: 11px !important;
+}
+
+.table {
+    width: 850px !important;
+    position: absolute;
+    margin-top: 170px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.table2 {
+    width: 850px !important;
+    position: absolute;
+    margin-top: 450px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.titulo {
+    color: #fff;
+    background: rgb(113, 150, 208);
+}
+
+.titulo2 {
+    color: #fff;
+    background: rgb(252, 180, 118);
+}
+
+.secciones {
+    color: #fff;
+    background: #555859;
+}
+
+.material {
+    background: #fff;
+}
+
+.btn.btn-primary {
+    outline: none !important;
+    background-color: rgb(113, 150, 208);
+    font-weight: lighter;
+}
+
+.wrapper {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    float: right !important;
+}
+
+ul {
+    list-style: none;
+}
+
+ul.iconBar li {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    background: #e59500;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+ul li .fa {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: #fff;
+}
+
+ul li.facebook {
+    background: #3b5998;
+}
+
+ul li.twitter {
+    background: #00aced;
+}
+
+ul li.instagram {
+    background: #bc2a8d;
+}
+
+ul li.youtube {
+    background: #dd4b39;
+}
+
+ul li.facebook div.slider {
+    background: #627aac;
+}
+
+ul li.twitter div.slider {
+    background: #7fd5f6;
+}
+
+ul li.instagram div.slider {
+    background: #dd94c6;
+}
+
+ul li.youtube div.slider {
+    background: #eea59c;
+}
+
+.slider {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 51px;
+    width: 0px;
+    height: 50px;
+    background: #eebb5c;
+    border-radius: 3px;
+    transition: all 0.5s 0.3s ease;
+}
+
+.slider p {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 900;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    opacity: 0;
+    transition: all 0.6s ease;
+}
+
+ul li:hover .slider {
+    width: 180px;
+    transition: all 0.5s ease;
+}
+
+ul li:hover .slider p {
+    opacity: 1;
+    transition: all 1s 0.2s ease;
+}
+
+/* Ventana emergente */
+
+.close {
+    font-size: 40px;
+    margin-top: -9px !important;
+}
+
+.modal-header {
+    border: none;
+    background-color: #eceae0;
+    height: 60px;
+    width: 711px;
+}
+
+.modal-body {
+    height: 400px !important;
+    width: 712px !important;
+    margin-left: -51px;
+}
+
+.imgSlider {
+    width: 711px !important;
+    height: 400px !important;
+    border-radius: 0 0 10px 10px;
+}
+
+#myModal {
+    overflow: hidden !important;
+}
+
+.close {
+    font-size: 40px !important;
+    margin-top: -10px !important;
+}
+
+.msjIntra {
+    width: 680px !important;
+    height: 325.68px;
+}
+
+.modal-content {
+    width: 713px !important;
+    position: absolute;
+    margin-top: 260px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container {
+    position: relative;
+}
+
+/* ICONO DE USUARIO */
+
+.imgUsuario {
+    width: 40px;
+    height: 40px;
+    margin-top: -11px;
+    border-radius: 120px;
+}
+
+.aImgUsuario {
+    margin-bottom: -10px;
+}

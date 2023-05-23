@@ -1,0 +1,158 @@
+/* Estilo html y body */
+
+html,
+body {
+    background-image: url("../img/fondoIntraGAM.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    width: 100%;
+    font-family: "Segoe UI Regular", "Segoe UI" !important;
+    padding: 0 !important;
+}
+
+
+/* Tablas para ramo VIDA */
+
+#tablaDinamicaLoadVida {
+    margin-left: -43px !important;
+    text-align: justify !important;
+}
+
+.tdVida {
+    background-color: rgb(113, 150, 208);
+    text-align: center;
+    vertical-align: middle !important;
+    color: #fff;
+    font-weight: lighter;
+}
+
+td {
+    text-align: center;
+    vertical-align: middle !important;
+    font-size: 10pt;
+    background: #f6f7f7;
+}
+
+
+/* Estilos modificados de etiquetas predefinidas */
+
+.h2Vida {
+    margin-left: -43px !important;
+}
+
+#tablaDinamicaLoadVida_length {
+    margin-left: -43px !important;
+}
+
+#tablaDinamicaLoadVida_filter {
+    margin-left: -43px !important;
+}
+
+#tablaDinamicaLoadVida_info {
+    margin-left: -43px !important;
+}
+
+#tablaDinamicaLoadVida_paginate {
+    margin-left: -43px !important;
+}
+
+.close {
+    outline: none;
+}
+
+button.btn.btn-primary {
+    outline: none !important;
+    background-color: rgb(113, 150, 208);
+    font-weight: lighter;
+}
+
+a {
+    outline: none !important;
+}
+
+button#id {
+    outline: none !important;
+    text-decoration: none;
+}
+
+button#aceptar {
+    outline: none !important;
+}
+
+img.semaforoR {
+    width: 9px !important;
+    height: 9px !important;
+}
+
+img.semaforoV {
+    width: 9px !important;
+    height: 9px !important;
+}
+
+img.semaforoA {
+    width: 9px !important;
+    height: 9px !important;
+}
+
+.estadoTp {
+    width: 140px !important;
+}
+
+.iconoIntra {
+    width: 30px !important;
+    margin-top: 11px !important;
+}
+
+#myModalLabel {
+    font-weight: bold;
+}
+
+
+/* ALERTAS */
+
+.Custom_Cancel>.sa-button-container>.cancel {
+    background-color: rgb(85, 88, 89);
+}
+
+
+/* ICONO DE USUARIO */
+
+.imgUsuario {
+    width: 40px;
+    height: 40px;
+    margin-top: -11px;
+    border-radius: 120px;
+}
+
+.aImgUsuario {
+    margin-bottom: -10px;
+}
+
+
+/* TABLA VIDA / GDD */
+
+#tablaDinamicaLoadGdd {
+    margin-left: -40px !important;
+}
+
+.h2Gdd {
+    margin-left: -40px !important;
+}
+
+#tablaDinamicaLoadGdd_length {
+    margin-left: -40px !important;
+}
+
+#tablaDinamicaLoadGdd_filter {
+    margin-left: 60px !important;
+}
+
+#tablaDinamicaLoadGdd_info {
+    margin-left: -40px !important;
+}
+
+#tablaDinamicaLoadGdd_paginate {
+    margin-left: -40px !important;
+}

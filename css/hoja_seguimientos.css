@@ -1,0 +1,426 @@
+html,
+body {
+    background-image: url("../img/fondoIntraGAM.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    width: 100%;
+    font-family: "Segoe UI Regular", "Segoe UI" !important;
+}
+
+
+
+/* ESTRELLAS */
+
+.rating {
+    display: flex;
+    width: 100%;
+    flex-direction: row-reverse;
+    height: 150px;
+    position: relative;
+    justify-content: center;
+}
+
+.rating-00 {
+    filter: grayscale(100%);
+    color: rgba(0, 68, 255, 0.61);
+}
+
+.rating>input {
+    display: none;
+    color: rgba(0, 68, 255, 0.61);
+}
+
+.rating>label {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    margin-top: auto;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='126.729' height='126.73'%3e%3cpath fill='%23e3e3e3' d='M121.215 44.212l-34.899-3.3c-2.2-.2-4.101-1.6-5-3.7l-12.5-30.3c-2-5-9.101-5-11.101 0l-12.4 30.3c-.8 2.1-2.8 3.5-5 3.7l-34.9 3.3c-5.2.5-7.3 7-3.4 10.5l26.3 23.1c1.7 1.5 2.4 3.7 1.9 5.9l-7.9 32.399c-1.2 5.101 4.3 9.3 8.9 6.601l29.1-17.101c1.9-1.1 4.2-1.1 6.1 0l29.101 17.101c4.6 2.699 10.1-1.4 8.899-6.601l-7.8-32.399c-.5-2.2.2-4.4 1.9-5.9l26.3-23.1c3.8-3.5 1.6-10-3.6-10.5z'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 76%;
+    transition: .3s;
+}
+
+.rating>input:checked~label, .rating>input:checked~label~label {
+    color: rgba(0, 68, 255, 0.61);
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='126.729' height='126.73'%3e%3cpath fill='rgba(0, 68, 255, 0.61)' d='M121.215 44.212l-34.899-3.3c-2.2-.2-4.101-1.6-5-3.7l-12.5-30.3c-2-5-9.101-5-11.101 0l-12.4 30.3c-.8 2.1-2.8 3.5-5 3.7l-34.9 3.3c-5.2.5-7.3 7-3.4 10.5l26.3 23.1c1.7 1.5 2.4 3.7 1.9 5.9l-7.9 32.399c-1.2 5.101 4.3 9.3 8.9 6.601l29.1-17.101c1.9-1.1 4.2-1.1 6.1 0l29.101 17.101c4.6 2.699 10.1-1.4 8.899-6.601l-7.8-32.399c-.5-2.2.2-4.4 1.9-5.9l26.3-23.1c3.8-3.5 1.6-10-3.6-10.5z'/%3e%3c/svg%3e");
+}
+
+/*CURSOR*/
+
+.rating>input:not(:checked)~label:hover, .rating>input:not(:checked)~label:hover~label {
+    color: rgba(0, 68, 255, 0.61);
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='126.729' height='126.73'%3e%3cpath fill='rgba(0, 68, 255, 0.61)' d='M121.215 44.212l-34.899-3.3c-2.2-.2-4.101-1.6-5-3.7l-12.5-30.3c-2-5-9.101-5-11.101 0l-12.4 30.3c-.8 2.1-2.8 3.5-5 3.7l-34.9 3.3c-5.2.5-7.3 7-3.4 10.5l26.3 23.1c1.7 1.5 2.4 3.7 1.9 5.9l-7.9 32.399c-1.2 5.101 4.3 9.3 8.9 6.601l29.1-17.101c1.9-1.1 4.2-1.1 6.1 0l29.101 17.101c4.6 2.699 10.1-1.4 8.899-6.601l-7.8-32.399c-.5-2.2.2-4.4 1.9-5.9l26.3-23.1c3.8-3.5 1.6-10-3.6-10.5z'/%3e%3c/svg%3e");
+}
+
+.emoji-wrapper {
+    width: 100%;
+    text-align: center;
+    height: 100px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.emoji-wrapper:before, .emoji-wrapper:after {
+    content: "";
+    height: 15px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    z-index: 1;
+}
+
+.emoji-wrapper:before {
+    top: 0;
+}
+
+.emoji-wrapper:after {
+    bottom: 0;
+}
+
+.emoji {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: .3s;
+}
+
+.emoji>svg {
+    margin: 15px 0;
+    width: 70px;
+    height: 70px;
+    flex-shrink: 0;
+}
+
+#rating-0:checked~.emoji-wrapper>.emoji {
+    transform: translateY(-100px);
+}
+
+#rating-1:checked~.emoji-wrapper>.emoji {
+    transform: translateY(-200px);
+}
+
+#rating-2:checked~.emoji-wrapper>.emoji {
+    transform: translateY(-300px);
+}
+
+#rating-3:checked~.emoji-wrapper>.emoji {
+    transform: translateY(-400px);
+}
+
+#rating-4:checked~.emoji-wrapper>.emoji {
+    transform: translateY(-500px);
+}
+
+#rating-5:checked~.emoji-wrapper>.emoji {
+    transform: translateY(-600px);
+}
+
+#rating-6:checked~.emoji-wrapper>.emoji {
+    transform: translateY(-700px);
+}
+
+#rating-7:checked~.emoji-wrapper>.emoji {
+    transform: translateY(-800px);
+}
+
+#rating-8:checked~.emoji-wrapper>.emoji {
+    transform: translateY(-900px);
+}
+
+#rating-9:checked~.emoji-wrapper>.emoji {
+    transform: translateY(-1000px);
+}
+
+#rating-10:checked~.emoji-wrapper>.emoji {
+    transform: translateY(-1100px);
+}
+
+
+
+
+#rating-02:checked~.emoji-wrapper>.emoji {
+    transform: translateY(-100px);
+}
+
+#rating-12:checked~.emoji-wrapper>.emoji {
+    transform: translateY(-200px);
+}
+
+#rating-22:checked~.emoji-wrapper>.emoji {
+    transform: translateY(-300px);
+}
+
+#rating-32:checked~.emoji-wrapper>.emoji {
+    transform: translateY(-400px);
+}
+
+#rating-42:checked~.emoji-wrapper>.emoji {
+    transform: translateY(-500px);
+}
+
+#rating-52:checked~.emoji-wrapper>.emoji {
+    transform: translateY(-600px);
+}
+
+#rating-62:checked~.emoji-wrapper>.emoji {
+    transform: translateY(-700px);
+}
+
+#rating-72:checked~.emoji-wrapper>.emoji {
+    transform: translateY(-800px);
+}
+
+#rating-82:checked~.emoji-wrapper>.emoji {
+    transform: translateY(-900px);
+}
+
+#rating-92:checked~.emoji-wrapper>.emoji {
+    transform: translateY(-1000px);
+}
+
+#rating-102:checked~.emoji-wrapper>.emoji {
+    transform: translateY(-1100px);
+}
+.feedback {
+    width: 100%;
+    padding: 0px;
+}
+
+
+/*CODIGO PARA EL TOOLTIP*/
+
+.tooltip-inner {
+    max-width: none;
+    white-space: nowrap;
+    background: white;
+    border: 2px solid #95A5A6;
+    -webkit-box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.3);
+    color: #34495E;
+    margin: 0;
+    padding: 0;
+}
+
+.tooltip.bottom .tooltip-arrow {
+    top: 50;
+    left: 50%;
+    margin-left: -10px;
+    border-bottom-color: #F5CBA7;
+    /* black */
+    border-width: 0 6px 6px;
+}
+
+a {
+    cursor: pointer;
+}
+
+.iconoIntra {
+    width: 30px !important;
+    margin-top: 11px !important;
+}
+
+td {
+    border: none !important;
+    vertical-align: middle !important;
+}
+
+.seguimiento {
+    background-color: rgb(113, 150, 208);
+    color: #fff;
+}
+
+.nombreAgente {
+    background-color: rgb(252, 180, 118);
+}
+
+.documentos {
+    background-color: rgb(113, 150, 208);
+    color: #fff;
+}
+
+.agregar {
+    background-color: rgb(113, 150, 208);
+    color: #fff;
+}
+
+.comentarios {
+    background-color: rgb(113, 150, 208);
+    color: #fff;
+    text-align: center;
+}
+
+textarea {
+    outline: none !important;
+    resize: none;
+    color: #000 !important;
+}
+
+
+/* Transformacion de los input */
+
+input#fgnp {
+    outline: none !important;
+    color: #000;
+    font-weight: bold;
+}
+
+input#polizap {
+    outline: none !important;
+    color: #000;
+    font-weight: bold;
+}
+
+input#poliza {
+    outline: none !important;
+    color: #000;
+    font-weight: bold;
+}
+
+select#tipo {
+    outline: none !important;
+}
+
+#tablaDinamicaLoad {
+    background: #fff !important;
+}
+
+.datosDocument {
+    background: #555859;
+    color: #fff;
+}
+
+.observaciones {
+    background: #555859;
+    color: #fff;
+}
+
+
+/* Tamanio del inputo para terminados */
+
+input[type=checkbox] {
+    transform: scale(1.5);
+    margin: 10px;
+}
+
+#estado {
+    color: #000;
+}
+
+#id {
+    outline: none !important;
+    text-decoration: none !important;
+}
+
+#aceptar {
+    outline: none !important;
+}
+
+
+/* Disenio alertas */
+
+.swal2-confirm {
+    outline: none !important;
+    margin: 10px;
+}
+
+.swal2-cancel {
+    outline: none !important;
+    margin: 10px;
+}
+
+#swal2-title {
+    font-size: 30px;
+}
+
+#swal2-content {
+    font-size: 17px;
+}
+
+
+/* Disenio del boton */
+
+.btn.btn-primary {
+    outline: none !important;
+    background-color: rgb(113, 150, 208);
+    font-weight: lighter;
+}
+
+
+/* Quita estilo del contorno de los elementos */
+
+#guardar {
+    outline: none !important;
+}
+
+#guardar2 {
+    outline: none !important;
+}
+
+#guardar3 {
+    outline: none !important;
+}
+
+#guardar5 {
+    outline: none !important;
+}
+
+#guardar6 {
+    outline: none !important;
+}
+
+#guardar1 {
+    outline: none !important;
+}
+
+#observaciones {
+    height: 75px !important;
+}
+
+
+/* Tamanio de la barra de carga */
+
+.arch_validado {
+    width: 35px;
+    height: 35px;
+}
+
+.arch_snValidar {
+    width: 35px;
+    height: 35px;
+}
+
+
+/* ICONO DE USUARIO */
+
+.imgUsuario {
+    width: 40px;
+    height: 40px;
+    margin-top: -11px;
+    border-radius: 120px;
+}
+
+.aImgUsuario {
+    margin-bottom: -10px;
+}
+
+.imgUsuario_seg {
+    width: 35px;
+    height: 35px;
+    border-radius: 120px;
+    text-align: center !important;
+    float: left !important;
+    margin-left: 6px;
+    margin-right: 15px;
+}
+
+.nombreUsuario {
+    margin-left: 10px !important;
+}

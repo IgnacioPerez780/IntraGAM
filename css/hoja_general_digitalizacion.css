@@ -1,0 +1,122 @@
+/*  estilos para el body  */
+body {
+    background-color: #e5e7e981;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.div {
+    margin-top: 50px;
+}
+
+.close {
+    outline: none !important;
+    border: none !important;
+}
+/*  estilos para los select  */
+select {
+    width: 360px !important;
+    font-family: 'Arial Narrow';
+    font-size: 15px !important;
+    letter-spacing: 0.9pt;
+}
+/*  estilos para los botones */
+button.btn.btn-info {
+    border: none;
+    outline: none !important;
+    font-size: 16.5px;
+    font-weight: bold;
+    font-family: 'Arial Narrow';
+    margin-left: 400px;
+}
+
+#seleccion2 {
+    width: 360px !important;
+}
+
+.form-control {
+    font-size: 14px;
+}
+
+small {
+    font-weight: normal;
+    font-size: 14.5px;
+    font-family: 'Arial Narrow';
+    letter-spacing: 1pt;
+}
+
+label {
+    font-size: 16.5px;
+    font-family: 'Arial Narrow';
+    letter-spacing: 0.5pt;
+}
+
+.table {
+    margin-top: 30px;
+}
+
+td {
+    font-weight: bold;
+}
+
+label {
+    font-size: 16.5px;
+    font-family: 'Arial Narrow';
+}
+
+#botonVIDA {
+    font-size: 16.5px;
+    font-family: 'Arial Narrow';
+}
+
+#botonGMM {
+    font-size: 16.5px;
+    font-family: 'Arial Narrow';
+}
+
+#botonAUTOS {
+    font-size: 16.5px;
+    font-family: 'Arial Narrow';
+}
+
+#botonDAÑOS {
+    font-size: 16.5px;
+    font-family: 'Arial Narrow';
+}
+
+#botonP {
+    font-size: 16.5px;
+    font-family: 'Arial Narrow';
+}
+
+svg.highcharts-root {
+    margin-top: 5px;
+}
+
+#respG {
+    font-size: 16.5px;
+    font-family: 'Arial Narrow';
+    margin-top: -40px;
+}
+
+#respInd {
+    font-size: 16.5px;
+    font-family: 'Arial Narrow';
+    margin-top: -30px;
+}
+
+
+/* ICONO DE USUARIO */
+
+.imgUsuario {
+    width: 40px;
+    height: 40px;
+    margin-top: -11px;
+    border-radius: 120px;
+}
+
+.aImgUsuario {
+    margin-bottom: -10px;
+}

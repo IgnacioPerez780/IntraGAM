@@ -1,0 +1,84 @@
+/* Icono del modal para cerrarlo */
+
+.close {
+    font-size: 40px !important;
+    margin-top: -9px !important;
+}
+
+
+/* Tamanio del contenido en el modal */
+
+.modal-header {
+    border: none;
+    background-color: #eceae0;
+    height: 60px;
+    width: 711px;
+}
+
+.modal-body {
+    height: 450px !important;
+    width: 712px !important;
+    margin-left: -50.3px;
+}
+
+
+/* Tamanio de las notificaciones */
+
+.imgNotificaciones {
+    width: 710px !important;
+    height: 450px !important;
+    border-radius: 0 0 6px 6px !important;
+}
+
+.modal-content {
+    width: 713px !important;
+    position: absolute;
+    margin-top: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* SLIDER */
+
+.slider {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 51px;
+    width: 0px;
+    height: 50px;
+    background: #eebb5c;
+    border-radius: 3px;
+    transition: all 0.5s 0.3s ease;
+}
+
+.slider p {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 900;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    opacity: 0;
+    transition: all 0.6s ease;
+}
+
+ul li:hover .slider {
+    width: 180px;
+    transition: all 0.5s ease;
+}
+
+ul li:hover .slider p {
+    opacity: 1;
+    transition: all 1s 0.2s ease;
+}
+
+svg.w10 {
+    display: none;
+}
+
+span#zsitc_minimize {
+    display: none;
+}

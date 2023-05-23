@@ -1,0 +1,227 @@
+html, body {
+    background-image: url("../img/fondoIntraGAM.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    width: 100%;
+    font-family: "Segoe UI Regular", "Segoe UI" !important;
+    padding: 0 !important;
+}
+
+.iconoIntra {
+    width: 30px !important;
+    margin-top: 11px !important;
+}
+
+/* SECCION / ULTIMOS CAMBIOS */
+
+.row {
+    float: right;
+    width: 410px !important;
+    background-color: transparent;
+    text-align: center;
+    margin: 20px;
+    margin-right: -100px !important;
+}
+
+.ultimosC_cart {
+    background-color: rgb(113, 150, 208);
+    text-align: center;
+    border: 3px;
+    border-style: solid;
+    border-color: rgb(113, 150, 208);
+    color: #fff;
+    font-weight: bold;
+}
+
+.infoCambios_cart {
+    border: 3px;
+    border-style: solid;
+    border-color: rgb(113, 150, 208);
+    text-align: justify;
+}
+
+.datoModificado_cart {
+    float: right;
+    color: black;
+    font-style: oblique;
+}
+
+.separacion {
+    background-color: transparent;
+    text-align: center;
+}
+
+/* DATOS DE LA DIGITALIZACION */
+
+.datosAg_cart {
+    background-color: transparent;
+    float: left !important;
+    margin-left: -100px;
+    width: 65%;
+}
+
+h2 {
+    font-size: 35px;
+    color: rgb(85, 88, 89) !important;
+    font-weight: lighter;
+    text-align: justify;
+}
+
+.btnEditar_cart {
+    border-radius: 5px;
+    background-color: Transparent;
+    border: none;
+}
+
+#_x31__x2C_5 {
+    margin-bottom: -15px !important;
+}
+
+h1 {
+    font-size: 33px !important;
+    color: rgb(85, 88, 89) !important;
+    font-weight: lighter !important;
+    text-align: justify;
+    margin-top: 10px;
+}
+
+/* TABLA/DATOS DE ARCHIVO  */
+
+.tablaDatosA_cart {
+    width: 73% !important;
+    float: left !important;
+    margin-left: -100px;
+    margin-top: 30px;
+}
+
+.cabeceraT_cart {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    background: rgb(113, 150, 208) !important;
+    color: #fff;
+}
+
+.fechaCarga_cart {
+    text-align: center;
+    padding: 5px !important;
+    vertical-align: middle !important;
+    background: #fff;
+}
+
+.archivoCargado_cart {
+    text-align: center;
+    padding: 5px !important;
+    vertical-align: middle !important;
+    background: #fff;
+}
+
+.poliza_cart {
+    text-align: center;
+    padding: 5px !important;
+    vertical-align: middle !important;
+    background: #fff;
+}
+
+.eliminarA_cart {
+    background-color: transparent;
+    text-align: center;
+    padding: 5px !important;
+    vertical-align: middle !important;
+    background: #fff;
+}
+
+.btnEliminar_cart {
+    background-color: transparent;
+    border: none;
+    padding: 5px !important;
+}
+
+/* VISUALIZACION DE LOS ARCHIVOS */
+
+#ar {
+    margin-top: 30px;
+    width: 73% !important;
+    height: 480px !important;
+    float: left !important;
+    margin-left: -100px;
+}
+
+/* SUBIR ARCHIVOS */
+
+.panelSubirA_cart {
+    margin-top: 35px !important;
+    width: 400px;
+    background-color: transparent;
+    border-color: rgb(252, 180, 118);
+    border-width: 4px;
+    border-style: dashed;
+    margin-bottom: 35px !important;
+    height: 180px;
+    margin-left: -100px;
+}
+
+h4 {
+    text-align: center;
+    font-weight: bold !important;
+}
+
+.pane_body {
+    padding: 5px !important;
+}
+
+.btn.btn-primary {
+    outline: none !important;
+    background-color: rgb(113, 150, 208);
+    font-weight: lighter;
+    margin-top: 30px;
+}
+
+.selectArch_cart {
+    outline: none !important;
+}
+
+/* MODAL */
+
+.modal-content {
+    width: 420px !important;
+    position: absolute;
+    margin-top: 185px !important;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn.btn-info {
+    outline: none !important;
+    background-color: rgb(113, 150, 208);
+    font-weight: lighter;
+    margin-bottom: -15px !important;
+}
+
+input.btn.btn-danger {
+    outline: none !important;
+    font-weight: lighter;
+    margin-bottom: -15px !important;
+}
+
+h5 {
+    font-weight: bold !important;
+    font-size: 16px !important;
+}
+
+
+/* ICONO DE USUARIO */
+
+.imgUsuario {
+    width: 40px;
+    height: 40px;
+    margin-top: -11px;
+    border-radius: 120px;
+}
+
+.aImgUsuario {
+    margin-bottom: -10px;
+}

@@ -1,0 +1,229 @@
+html,
+body {
+    background-image: url("../img/2.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: "Segoe UI Regular", "Segoe UI" !important;
+    overflow: hidden;
+}
+
+html:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.container {
+    height: 100%;
+    align-content: center;
+}
+
+.card {
+    height: 370px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.card-body {
+    margin-top: 5px !important;
+}
+
+.social_icon span {
+    font-size: 60px;
+    margin-left: 10px;
+    color: #FFC312;
+}
+
+.social_icon span:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.card-header h3 {
+    color: white;
+    letter-spacing: 2px;
+    margin-top: 15px !important;
+    margin-bottom: 5px;
+}
+
+.social_icon {
+    position: absolute;
+    right: 20px;
+    top: -50px !important;
+}
+
+.input-group-prepend span {
+    width: 50px;
+    background-color: #FFC312;
+    color: black;
+    border: 0 !important;
+}
+
+
+/* Entrada de formulario que recibe el foco */
+
+input:focus {
+    outline: 0 0 0 0 !important;
+    box-shadow: 0 0 0 0 !important;
+}
+
+.contrasena {
+    margin-left: 5px !important;
+    color: #fff !important;
+}
+
+.login_btn {
+    color: black;
+    background-color: #FFC312;
+    width: 100px;
+}
+
+.login_btn:hover {
+    color: black;
+    background-color: white;
+}
+
+.links {
+    color: white;
+}
+
+.links a {
+    margin-left: 4px;
+}
+
+
+/* Estilo pie de pagina */
+
+footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 30px;
+    width: 100%;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    background: rgb(255 195 18 / 66%);
+}
+
+.textAlert {
+    text-indent: 10pt;
+    font-size: 17px;
+}
+
+i.fa {
+    color: black;
+}
+
+a {
+    outline: none !important;
+}
+
+.login_btn {
+    color: black;
+    background-color: #FFC312;
+    width: 100px;
+}
+
+.login_btn:hover {
+    color: black;
+    background-color: white;
+}
+
+.links {
+    color: white;
+}
+
+.links a {
+    margin-left: 4px;
+}
+
+.textAlert {
+    text-indent: 10pt;
+    font-size: 17px;
+}
+
+i.fa {
+    color: black;
+}
+
+a {
+    outline: none !important;
+}
+
+.enlacePass {
+    color: #FFC312 !important;
+    font-size: 17px;
+}
+
+.enlacePass:hover {
+    color: #fff !important;
+    cursor: pointer;
+}
+
+.enlaceAviso {
+    color: #FFC312;
+    font-size: 17px;
+}
+
+.enlaceAviso:hover {
+    color: #fff;
+}
+
+
+/* CONFIRMACION PASS */
+
+.sweet-alert {
+    border-radius: 1em !important;
+    top: 50% !important;
+    left: 51% !important;
+}
+
+
+/* Modal de informaci¨®n */
+
+.close {
+    font-size: 40px !important;
+    margin-top: -25px !important;
+}
+
+.modal-header {
+    border: none !important;
+    background-color: #eceae0 !important;
+    height: 60px !important;
+    width: 711px !important;
+}
+
+.modal-body {
+    height: 400px !important;
+    width: 712px !important;
+    margin-left: -51px !important;
+}
+
+.imgSlider {
+    width: 711px !important;
+    height: 400px !important;
+    border-radius: 0 0 10px 10px !important;
+    margin-top: -40px;
+    margin-left: 35px;
+}
+
+#myModal {
+    overflow: hidden !important;
+}
+
+.modal-content {
+    width: 713px !important;
+    position: absolute !important;
+    margin-top: 260px !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+}

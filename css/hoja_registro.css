@@ -1,0 +1,196 @@
+html,
+body {
+    background-image: url("../img/fondoIntraGAM.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    width: 100%;
+    font-family: "Segoe UI Regular", "Segoe UI" !important;
+    padding: 0 !important;
+}
+
+button.btn.btn-info {
+    border: none;
+    outline: none !important;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #7196d0;
+}
+
+.iconoIntra {
+    width: 30px !important;
+    margin-top: 11px !important;
+}
+
+.col-md-2 {
+    top: 20px;
+}
+
+.form-control {
+    font-size: 14px !important;
+}
+
+select {
+    width: 298px !important;
+}
+
+button.btn.btn-info {
+    border: none;
+    outline: none !important;
+    font-size: 15px !important;
+    font-weight: bold;
+    margin-top: 22px;
+}
+
+#fechaC {
+    margin-top: 40px;
+}
+
+label {
+    font-size: 15px !important;
+}
+
+p {
+    margin-top: 5px;
+    font-size: 15px !important;
+}
+
+table {
+    margin-top: 40px !important;
+    width: 850px !important;
+    margin: auto;
+}
+
+
+/* Sesiones individuales por consultor */
+
+#sesionI_v {
+    margin-top: 40px !important;
+    width: 380px !important;
+    margin: auto;
+}
+
+#sesionI_c {
+    margin-top: 40px !important;
+    width: 380px !important;
+    margin: auto;
+}
+
+#sesionI_da {
+    margin-top: 40px !important;
+    width: 380px !important;
+    margin: auto;
+}
+
+#sesionI_di {
+    margin-top: 40px !important;
+    width: 380px !important;
+    margin: auto;
+}
+
+#sesionI_gi {
+    margin-top: 40px !important;
+    width: 380px !important;
+    margin: auto;
+}
+
+#sesionI_k {
+    margin-top: 40px !important;
+    width: 380px !important;
+    margin: auto;
+}
+
+td {
+    font-weight: bold;
+}
+
+#Carolina {
+    margin-top: 20px;
+}
+
+#respC {
+    margin-top: 15px;
+}
+
+#Dante {
+    margin-top: 20px;
+}
+
+#respDa {
+    margin-top: 15px;
+}
+
+#Diana {
+    margin-top: 20px;
+}
+
+#respDi {
+    margin-top: 15px;
+}
+
+#Giovanni {
+    margin-top: 20px;
+}
+
+#respGi {
+    margin-top: 15px;
+}
+
+#Karla {
+    margin-top: 20px;
+}
+
+#respK {
+    margin-top: 15px;
+}
+
+#Veronica {
+    margin-top: 20px;
+}
+
+#respV {
+    margin-top: 15px;
+}
+
+#Todos {
+    margin-top: 20px;
+}
+
+#respT {
+    margin-top: 15px;
+}
+
+small {
+    font-weight: normal;
+    font-size: 14px !important;
+}
+
+tbody {
+    background: #fff;
+}
+
+
+/* ICONO DE USUARIO */
+
+.imgUsuario {
+    width: 40px;
+    height: 40px;
+    margin-top: -11px;
+    border-radius: 120px;
+}
+
+.aImgUsuario {
+    margin-bottom: -10px;
+}
+
+
+/* Media query para tamanio de la tabla mostrada */
+
+@media all and (max-width: 1000px) {
+    table {
+        margin-top: 60px !important;
+        width: 700px !important;
+        margin: auto;
+    }
+}

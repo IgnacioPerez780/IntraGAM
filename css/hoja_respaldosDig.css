@@ -1,0 +1,121 @@
+html,
+body {
+    background-image: url("../img/fondoIntraGAM.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    width: 100%;
+    font-family: "Segoe UI Regular", "Segoe UI" !important;
+    padding: 0 !important;
+}
+
+.iconoIntra {
+    width: 30px !important;
+    margin-top: 11px !important;
+}
+
+
+/* Respaldos Digitales */
+
+#nueva {
+    outline: none !important;
+    background-color: transparent !important;
+    font-weight: bold !important;
+    margin-top: 20px !important;
+    ;
+    margin-bottom: 12px !important;
+    ;
+    margin-left: -177px !important;
+    ;
+}
+
+th {
+    text-align: center !important;
+    background-color: rgb(113, 150, 208);
+    color: #fff;
+    vertical-align: middle !important;
+}
+
+.row {
+    margin-left: -90px !important;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+}
+
+td {
+    vertical-align: middle !important;
+    text-align: center;
+}
+
+a {
+    outline: none !important;
+}
+
+
+/* Paginar la seccion de la tabla */
+
+#example {
+    background: #fff;
+    margin-top: 20px;
+}
+
+div#example_filter {
+    margin-left: 250px !important;
+}
+
+div#example_paginate {
+    margin-left: 200px !important;
+}
+
+input.btn.btn-primary {
+    outline: none !important;
+    background-color: rgb(113, 150, 208);
+    font-weight: lighter;
+    margin-bottom: -15px !important;
+}
+
+h4 {
+    font-weight: bold !important;
+    font-size: 16px !important;
+}
+
+textarea {
+    outline: none !important;
+    resize: none !important;
+    height: 33px !important;
+}
+
+
+/* Transformacion del contenido del modal */
+
+.modal-content {
+    width: 380px !important;
+    position: absolute;
+    margin-top: 350px !important;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-bottom: -50px;
+}
+
+.comentarios {
+    height: 70px !important;
+}
+
+
+/* ICONO DE USUARIO */
+
+.imgUsuario {
+    width: 40px;
+    height: 40px;
+    margin-top: -11px;
+    border-radius: 120px;
+}
+
+.aImgUsuario {
+    margin-bottom: -10px;
+}

@@ -1,0 +1,216 @@
+/*  estilos para las imagenes  */
+.img_vida {
+    display: flex;
+    margin: 0 auto;
+    width: 138px;
+    height: 158px;
+}
+
+.img_gmm {
+    display: flex;
+    margin: 0 auto;
+}
+
+.img_pymes {
+    display: flex;
+    margin: 0 auto;
+}
+
+.img_registro {
+    display: flex;
+    margin: 0 auto;
+    width: 150px;
+    height: 133px;
+    margin-top: 10px;
+}
+
+.img_mesaControl {
+    display: flex;
+    margin: 0 auto;
+    width: 125px;
+    height: 132px;
+    margin-top: 10px;
+}
+
+.img_siniestros {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 5px;
+    width: 138px;
+    height: 158px;
+}
+
+.img_auto {
+    display: flex;
+    margin: 0 auto;
+    width: 158px;
+    height: 138px;
+}
+
+.div_vida {
+    margin-top: 85px;
+}
+
+.div_siniestros {
+    margin-top: 30px;
+}
+
+.div_registro {
+    margin-top: 35px;
+}
+
+.div_auto {
+    margin-top: 5px;
+}
+
+.div_pymes {
+    margin-top: 5px;
+}
+
+.div_mesaControl {
+    margin-top: 35px;
+}
+
+/*  estilos para las etiquetas  */
+label {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-family: 'Arial Narrow', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.siniestros {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-family: 'Arial Narrow', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+/* TABLA COLABORADOR */
+
+#td_vida_colaborador {
+    background-color: #0070CE;
+    border: 2px solid #d0d0d0;
+    color: white;
+    border-style: none;
+    transition: .2s ease;
+    border-radius: 10px;
+    width: 25%;
+}
+
+#td_vida_colaborador:hover {
+    background-color: #B1D1EC;
+    box-shadow: 0 4px 16px rgb(0, 112, 206);
+    transition: all 0.2s ease;
+}
+
+#td_pymes_colaborador {
+    background-color: #F4E607;
+    border: 2px solid #d0d0d0;
+    border-style: none;
+    transition: .2s ease;
+    color: rgb(122, 122, 113);
+    border-radius: 10px;
+    outline: none;
+}
+
+#td_pymes_colaborador:hover {
+    background-color: #F6F08C;
+    box-shadow: 0 4px 16px rgb(244, 230, 7);
+    transition: all 0.2s ease;
+}
+
+#td_autos_colaborador {
+    background-color: #F27317;
+    border: 2px solid #d0d0d0;
+    border-style: none;
+    transition: .2s ease;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+    width: 30%;
+}
+
+#td_autos_colaborador:hover {
+    background-color: #F5A458;
+    box-shadow: 0 4px 16px rgb(242, 115, 23);
+    transition: all 0.2s ease;
+}
+
+#td_gmm_colaborador {
+    background-color: #494E54;
+    border: 2px solid #d0d0d0;
+    border-style: none;
+    transition: .2s ease;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+}
+
+#td_gmm_colaborador:hover {
+    background-color: #BDC0C4;
+    box-shadow: 0 4px 16px rgb(73, 78, 84);
+    transition: all 0.2s ease;
+}
+
+#td_siniestros_colaborador {
+    background-color: #494E54;
+    border: 2px solid #d0d0d0;
+    border-style: none;
+    transition: .2s ease;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+    width: 25%;
+}
+
+#td_siniestros_colaborador:hover {
+    background-color: #BDC0C4;
+    box-shadow: 0 4px 16px rgb(73, 78, 84);
+    transition: all 0.2s ease;
+}
+
+#td_registro {
+    background-color: #0070CE;
+    border: 2px solid #d0d0d0;
+    border-style: none;
+    transition: .2s ease;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+    width: 15%;
+}
+
+#td_registro:hover {
+    background-color: #B1D1EC;
+    box-shadow: 0 4px 16px rgb(0, 112, 206);
+    transition: all 0.2s ease;
+}
+
+#td_mesaControl {
+    background-color: #F27317;
+    border: 2px solid #d0d0d0;
+    border-style: none;
+    transition: .2s ease;
+    border-radius: 10px;
+    color: white;
+    outline: none;
+    width: 15%;
+}
+
+#td_mesaControl:hover {
+    background-color: #F5A458;
+    box-shadow: 0 4px 16px rgb(242, 115, 23);
+    transition: all 0.2s ease;
+}
+
+h2#swal2-title {
+    font-size: 25px;
+    font-family: 'Arial Narrow', sans-serif;
+}

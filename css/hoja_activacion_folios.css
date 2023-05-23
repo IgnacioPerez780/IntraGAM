@@ -1,0 +1,80 @@
+/* estilos generales para el body y html */
+html, body {
+    background-image: url("../img/fondoIntraGAM.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    width: 100%;
+    font-family: "Segoe UI Regular", "Segoe UI" !important;
+}
+ 
+/* estilos para los botones*/
+button {
+    outline: none !important;
+}
+/* estilos generales para la etiqueta a */
+a {
+    outline: none !important;
+}
+/* estilos generales para los text area */
+textarea {
+    resize: none;
+}
+/* Padding del body importante para mantener la visivilidad*/
+body {
+    padding: 0 !important;
+}
+
+/* icono de intragam */
+.iconoIntra {
+    width: 30px !important;
+    margin-top: 11px !important;
+}
+
+/* colores para el td de cancelados  */
+.tdCancelados {
+    background-color: rgb(113, 150, 208);
+    text-align: center;
+    vertical-align: middle !important;
+    color: #fff;
+    font-weight: lighter;
+}
+
+/* estilos generales para los td */
+td {
+    text-align: center;
+    vertical-align: middle !important;
+    font-size: 10pt;
+    background: #f6f7f7;
+}
+
+.btn-link {
+    text-decoration: none !important;
+}
+/* estilo para la etiqueta del modal */
+#myModalLabel {
+    font-weight: bold;
+}
+
+/* estilos para el boton guardar del formulario */
+button#guardar-form {
+    outline: none !important;
+    background-color: rgb(113, 150, 208) !important;
+    font-weight: lighter !important;
+    margin-right: -15px !important;
+}
+
+/* ICONO DE USUARIO */
+
+.imgUsuario {
+    width: 40px !important;
+    height: 40px !important;
+    margin-top: -5px !important;
+    border-radius: 120px !important;
+}
+
+.aImgUsuario {
+    margin-bottom: -20px !important;
+    margin-top: -20px !important;
+}

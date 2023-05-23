@@ -1,0 +1,75 @@
+/* Estilos para imagen de vida  */
+.img_vida {
+    display: flex;
+    margin: 0 auto;
+    width: 149.6px;
+    height: 150px;
+    margin-top: 20px;
+}
+
+/* Estilos para imagen de gmm  */
+.img_gmm {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 10px !important;
+    width: 149.6px;
+    height: 150px;
+}
+
+/* Estilos para imagen de registro  */
+.img_registro {
+    display: flex;
+    margin: 0 auto;
+    width: 149.6px;
+    height: 150px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+/* Estilos para imagen mesa control  */
+.img_mesaControl {
+    display: flex;
+    margin: 0 auto;
+    width: 149.6px;
+    height: 150px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+/* Estilos para imagen de siniestros  */
+.img_siniestros {
+    display: flex;
+    margin: 0 auto;
+    width: 149.6px;
+    height: 150px;
+}
+/* Estilos para imagen de autos  */
+.img_auto {
+    display: flex;
+    margin: 0 auto;
+    width: 149.6px;
+    height: 150px;
+}
+
+/* Margen superior div vida  */
+.div_vida {
+    margin-top: 100px;
+}
+/* Margen superior div registro */
+.div_registro {
+    margin-top: 40px;
+}
+/* Margen superior div mesaControl */
+.div_mesaControl {
+    margin-top: 40px;
+}
+
+label {
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+.labelSiniestros {
+    font-size: 20px;
+    letter-spacing: 5px;
+    color: #fff;
+}

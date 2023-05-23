@@ -1,0 +1,105 @@
+html,
+body {
+    background-image: url("../img/fondoIntraGAM.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    width: 100%;
+    font-family: "Segoe UI Regular", "Segoe UI" !important;
+    padding: 0 !important;
+}
+
+
+/* Icono del logo */
+
+.iconoIntra {
+    width: 30px !important;
+    margin-top: 11px !important;
+}
+
+
+/* Tamanio del contenedor */
+
+.container {
+    margin-top: 27px !important;
+}
+
+
+/* Tamanio de fuente en los select */
+
+.form-control {
+    font-size: 14px !important;
+}
+
+select {
+    width: 298px !important;
+}
+
+
+/* Disenio del boton para consultar */
+
+button.btn.btn-info {
+    border: none;
+    outline: none !important;
+    font-size: 15px !important;
+    font-weight: bold;
+    margin-top: 22px;
+    background-color: #7196d0;
+}
+
+
+/* Tamanio de fuente en las etiquetas */
+
+label {
+    font-size: 15px !important;
+}
+
+
+/* Disenio de la tabla */
+
+td {
+    font-weight: bold;
+    border-style: none !important;
+}
+
+table {
+    margin-top: 40px !important;
+    width: 850px !important;
+    margin: auto;
+    border: none !important;
+}
+
+small {
+    font-weight: normal;
+    font-size: 14px !important;
+}
+
+#sesiones {
+    margin-top: 40px !important;
+    width: 380px !important;
+    margin: auto;
+}
+
+.datos {
+    background: #7196d0;
+    color: #fff;
+}
+
+tbody {
+    background: #fff;
+}
+
+
+/* ICONO DE USUARIO */
+
+.imgUsuario {
+    width: 40px;
+    height: 40px;
+    margin-top: -11px;
+    border-radius: 120px;
+}
+
+.aImgUsuario {
+    margin-bottom: -10px;
+}

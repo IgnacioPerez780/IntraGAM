@@ -1,0 +1,195 @@
+html, body {
+    background-image: url("../img/fondoIntraGAM.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    width: 100%;
+    font-family: "Segoe UI Regular", "Segoe UI" !important;
+}
+
+/*Disenio para todos los botones con el tipo de clase .btn-info*/
+
+button.btn.btn-info {
+    border: none;
+    outline: none !important;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: -47px;
+    margin-left: 400px;
+}
+
+/*Disenio para los enlaces */
+
+a {
+    border: none;
+    outline: none !important;
+}
+
+/* Disenio especifico solo para el boton con id */
+
+button#id {
+    border: none;
+    outline: none !important;
+    text-decoration: none;
+}
+
+/*Se establece el area de margen en la parte superior del los elementos*/
+
+.formFolios {
+    margin-top: 40px !important;
+}
+
+.col-sm-12 {
+    margin-top: -25px;
+}
+
+#tablaDinamicaLoad {
+    margin-top: 25px;
+}
+
+/* TABLA GMM */
+
+#tablaDinamicaLoadGmm {
+    margin-left: -43px !important;
+    margin-top: 25px;
+}
+
+.h2Consultor {
+    margin-left: -43px !important;
+}
+
+#tablaDinamicaLoadGmm_length {
+    margin-left: -43px !important;
+}
+
+#tablaDinamicaLoadGmm_filter {
+    margin-left: -43px !important;
+}
+
+#tablaDinamicaLoadGmm_info {
+    margin-left: -43px !important;
+}
+
+#tablaDinamicaLoadGmm_paginate {
+    margin-left: -43px !important;
+}
+
+/* TABLA VIDA */
+
+#tablaDinamicaLoadVida {
+    width: 1240px !important;
+    margin-left: -43px !important;
+    margin-top: 25px;
+}
+
+.h2Vida {
+    margin-left: -43px !important;
+}
+
+#tablaDinamicaLoadVida_length {
+    margin-left: -43px !important;
+}
+
+#tablaDinamicaLoadVida_filter {
+    margin-left: -43px !important;
+}
+
+#tablaDinamicaLoadVida_info {
+    margin-left: -43px !important;
+}
+
+#tablaDinamicaLoadVida_paginate {
+    margin-left: -43px !important;
+}
+
+.tdFoliosv {
+    background-color: rgb(113, 150, 208);
+    text-align: center;
+    vertical-align: middle !important;
+    color: #fff;
+    font-weight: lighter;
+}
+
+/* TABLA AUTOS */
+
+#tablaDinamicaLoadAuto {
+    margin-left: -43px !important;
+    margin-top: 25px;
+}
+
+.h2Consultor {
+    margin-left: -43px !important;
+}
+
+#tablaDinamicaLoadAuto_length {
+    margin-left: -43px !important;
+}
+
+#tablaDinamicaLoadAuto_filter {
+    margin-left: -43px !important;
+}
+
+#tablaDinamicaLoadAuto_info {
+    margin-left: -43px !important;
+}
+
+#tablaDinamicaLoadAuto_paginate {
+    margin-left: -43px !important;
+}
+
+.tdAutos {
+    background-color: rgb(113, 150, 208);
+    text-align: center;
+    vertical-align: middle !important;
+    color: #fff;
+    font-weight: lighter;
+}
+
+/* TABLA SINIESTROS */
+
+.tdFoliosS {
+    background-color: rgb(113, 150, 208);
+    text-align: center;
+    vertical-align: middle !important;
+    color: #fff;
+    font-weight: lighter;
+}
+
+/* TABLA DE GMM */
+
+.tdFoliosG {
+    background-color: rgb(113, 150, 208);
+    text-align: center;
+    vertical-align: middle !important;
+    color: #fff;
+    font-weight: lighter;
+}
+
+/* GENERAL */
+
+.iconoIntra {
+    width: 30px !important;
+    margin-top: 11px !important;
+}
+
+td {
+    text-align: center;
+    vertical-align: middle !important;
+    font-size: 10pt;
+    background: #f6f7f7;
+}
+
+/* ICONO DE USUARIO */
+
+.imgUsuario {
+    width: 40px !important;
+    height: 40px !important;
+    margin-top: -5px !important;
+    border-radius: 120px !important;
+}
+
+.aImgUsuario {
+    margin-bottom: -20px !important;
+    margin-top: -20px !important;
+}

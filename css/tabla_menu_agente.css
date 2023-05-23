@@ -1,0 +1,108 @@
+#td_vida {
+    background-color: rgb(70 157 74);
+    border: 2px solid #d0d0d0;
+    border-style: none;
+    transition: .2s ease;
+    color: white;
+    border-radius: 10px;
+    width: 333.6px !important;
+    border-radius: 25px;
+}
+
+#td_vida:hover {
+    background-color: #5cd042;
+    box-shadow: 0 4px 16px rgb(70 157 74);
+    transition: all 0.2s ease;
+}
+
+#td_siniestros {
+    background-color: rgb(193 186 68);
+    border: 2px solid #d0d0d0;
+    color: white;
+    border-style: none;
+    transition: .2s ease;
+    border-radius: 10px;
+    width: 333.6px !important;
+    border-radius: 25px;
+}
+
+#td_siniestros:hover {
+    background-color: #eae052;
+    box-shadow: 0 4px 16px rgb(193 186 68);
+    transition: all 0.2s ease;
+}
+
+#td_autos {
+    background-color: rgb(166 102 37);
+    border: 2px solid #d0d0d0;
+    border-style: none;
+    transition: .2s ease;
+    color: rgb(122, 122, 113) !important;
+    border-radius: 10px;
+    width: 333.6px !important;
+    border-radius: 25px;
+}
+
+#td_autos:hover {
+    background-color: #d7742a;
+    box-shadow: 0 4px 16px rgb(166 102 37);
+    transition: all 0.2s ease;
+}
+
+#td_apoyo {
+    background-color: rgb(93 120 127);
+    border: 2px solid #d0d0d0;
+    border-style: none;
+    transition: .2s ease;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+    width: 288px;
+    border-radius: 25px;
+}
+
+#td_apoyo:hover {
+    background-color: #5a84a8;
+    box-shadow: 0 4px 16px rgb(93 120 127);
+    transition: all 0.2s ease;
+}
+
+#td_gmm {
+    background-color: rgb(57 124 157);
+    border: 2px solid #d0d0d0;
+    border-style: none;
+    transition: .2s ease;
+    color: white;
+    border-radius: 10px;
+    width: 500.5px !important;
+    border-radius: 25px;
+}
+
+#td_gmm:hover {
+    background-color: #3e9ed0b8;
+    box-shadow: 0 4px 16px rgb(57 124 157);
+    transition: all 0.2s ease;
+}
+
+#td_descarga {
+    background-color: rgb(150 67 39);
+    border: 2px solid #d0d0d0;
+    border-style: none;
+    transition: .2s ease;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+    border-radius: 25px;
+}
+
+#td_descarga:hover {
+    background-color: #b8512e;
+    box-shadow: 0 4px 16px rgb(150 67 39);
+    transition: all 0.2s ease;
+}
+
+table {
+    margin: 0 auto !important;
+    width: 1045px !important;
+    margin-top: 20px !important;
+}

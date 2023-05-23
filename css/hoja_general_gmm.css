@@ -1,0 +1,164 @@
+/* Estilo html y body */
+
+html,
+body {
+    background-image: url("../img/fondoIntraGAM.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    width: 100%;
+    font-family: "Segoe UI Regular", "Segoe UI" !important;
+    padding: 0 !important;
+}
+
+
+/* Agranda el tamanio de la tabla de GMM */
+
+#tablaDinamicaLoadGmm {
+    margin-left: -42px !important;
+}
+
+.h2Consultor {
+    margin-left: -42px !important;
+}
+
+#tablaDinamicaLoadGmm_length {
+    margin-left: -42px !important;
+}
+
+#tablaDinamicaLoadGmm_filter {
+    margin-left: -42px !important;
+}
+
+#tablaDinamicaLoadGmm_info {
+    margin-left: -42px !important;
+}
+
+#tablaDinamicaLoadGmm_paginate {
+    margin-left: -42px !important;
+}
+
+#tablaDinamicaLoadGdd {
+    width: 1255px !important;
+    margin-left: -42px !important;
+}
+
+.h2Gdd {
+    margin-left: -42px !important;
+}
+
+#tablaDinamicaLoadGdd_length {
+    margin-left: -42px !important;
+}
+
+#tablaDinamicaLoadGdd_filter {
+    margin-left: -42px !important;
+}
+
+#tablaDinamicaLoadGdd_info {
+    margin-left: -42px !important;
+}
+
+#tablaDinamicaLoadGdd_paginate {
+    margin-left: -42px !important;
+}
+
+
+/* Modificacion en la celda de las tablas */
+
+.tdGmm {
+    background-color: rgb(113, 150, 208);
+    text-align: center;
+    vertical-align: middle !important;
+    color: #fff;
+    font-weight: lighter;
+}
+
+td {
+    text-align: center;
+    vertical-align: middle !important;
+    font-size: 10pt;
+    background: #f6f7f7;
+}
+
+
+/* No contornea el borde del icono o etiqueta */
+
+.close {
+    outline: none;
+}
+
+#agregar1 {
+    outline: none;
+}
+
+#cancelar {
+    outline: none !important;
+}
+
+a {
+    outline: none !important;
+}
+
+
+/* Tamanio de las imagenes */
+
+img.semaforoR {
+    width: 9px !important;
+    height: 9px !important;
+}
+
+img.semaforoV {
+    width: 9px !important;
+    height: 9px !important;
+}
+
+img.semaforoA {
+    width: 9px !important;
+    height: 9px !important;
+}
+
+.iconoIntra {
+    width: 30px !important;
+    margin-top: 11px !important;
+}
+
+
+/* Estilos del modal */
+
+#myModalLabel {
+    font-weight: bold;
+}
+
+button.btn.btn-primary {
+    outline: none !important;
+    background-color: rgb(113, 150, 208);
+    font-weight: lighter;
+}
+
+#id {
+    outline: none !important;
+    text-decoration: none !important;
+}
+
+
+/* ALERTAS */
+
+.Custom_Cancel>.sa-button-container>.cancel {
+    background-color: rgb(85, 88, 89);
+}
+
+
+/* ICONO DE USUARIO */
+
+.imgUsuario {
+    width: 40px;
+    height: 40px;
+    margin-top: -11px;
+    border-radius: 120px;
+}
+
+.aImgUsuario {
+    margin-bottom: -10px;
+}

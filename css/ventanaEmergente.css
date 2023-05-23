@@ -1,0 +1,56 @@
+/* Posicion del contenedor */
+
+.container {
+    position: relative;
+}
+
+
+/* Tamanio del icono de cerrar - modal */
+
+.close {
+    font-size: 40px;
+    margin-top: -9px !important;
+}
+
+
+/* Encabezado del modal */
+
+.modal-header {
+    border: none;
+    background-color: #eceae0;
+    height: 60px;
+    width: 711px;
+}
+
+
+/* Vista previa del cuerpo - modal */
+
+.modal-body {
+    height: 400px !important;
+    width: 712px !important;
+}
+
+
+/* Tamanio de las imagenes mostradas en el slider */
+
+.imgSlider {
+    width: 711px !important;
+    height: 400px !important;
+    border-radius: 0 0 10px 10px;
+}
+
+
+/* Contenido del modal */
+
+.modal-content {
+    width: 713px !important;
+    position: absolute;
+    margin-top: 260px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#exampleModal {
+    overflow: hidden !important;
+}

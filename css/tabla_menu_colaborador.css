@@ -1,0 +1,128 @@
+#td_vida_colaborador {
+    background-color: rgb(70 157 74);
+    border: 2px solid #d0d0d0;
+    color: white;
+    border-style: none;
+    transition: .2s ease;
+    border-radius: 25px;
+    width: 288px;
+}
+
+#td_vida_colaborador:hover {
+    background-color: #5cd042;
+    box-shadow: 0 4px 16px rgb(70 157 74);
+    transition: all 0.2s ease;
+}
+
+#td_siniestros_colaborador {
+    background-color: rgb(193 186 68);
+    border: 2px solid #d0d0d0;
+    border-style: none;
+    transition: .2s ease;
+    color: rgb(122, 122, 113);
+    border-radius: 25px;
+    outline: none;
+    width: 339px !important;
+}
+
+#td_siniestros_colaborador:hover {
+    background-color: #eae052;
+    box-shadow: 0 4px 16px rgb(193 186 68);
+    transition: all 0.2s ease;
+}
+
+#td_autos_colaborador {
+    background-color: rgb(166 102 37);
+    border: 2px solid #d0d0d0;
+    border-style: none;
+    transition: .2s ease;
+    color: white;
+    border-radius: 25px;
+    outline: none;
+    width: 440px;
+}
+
+#td_autos_colaborador:hover {
+    background-color: #d7742a;
+    box-shadow: 0 4px 16px rgb(166 102 37);
+    transition: all 0.2s ease;
+}
+
+#td_gmm_colaborador {
+    background-color: rgb(57 124 157);
+    border: 2px solid #d0d0d0;
+    border-style: none;
+    transition: .2s ease;
+    color: white;
+    border-radius: 25px;
+    outline: none;
+}
+
+#td_gmm_colaborador:hover {
+    background-color: #3e9ed0b8;
+    box-shadow: 0 4px 16px rgb(57 124 157);
+    transition: all 0.2s ease;
+}
+
+#td_apoyo {
+    background-color: rgb(93 120 127);
+    border: 2px solid #d0d0d0;
+    border-style: none;
+    transition: .2s ease;
+    color: white;
+    border-radius: 25px;
+    outline: none;
+    width: 288px;
+    border-radius: 25px;
+}
+
+#td_apoyo:hover {
+    background-color: #5a84a8;
+    box-shadow: 0 4px 16px rgb(93 120 127);
+    transition: all 0.2s ease;
+}
+
+#td_mesaControl {
+    background-color: rgb(96 174 123);
+    border: 2px solid #d0d0d0;
+    border-style: none;
+    transition: .2s ease;
+    border-radius: 25px;
+    color: white;
+    outline: none;
+    border-radius: 25px;
+}
+
+#td_mesaControl:hover {
+    background-color: #51d497;
+    box-shadow: 0 4px 16px rgb(96 174 123);
+    transition: all 0.2s ease;
+}
+
+#td_registro {
+    background-color: rgb(151 134 84);
+    border: 2px solid #d0d0d0;
+    border-style: none;
+    transition: .2s ease;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+    width: 288px;
+    border-radius: 25px;
+}
+
+#td_registro:hover {
+    background-color: #ceab50;
+    box-shadow: 0 4px 16px rgb(151 134 84);
+    transition: all 0.2s ease;
+}
+
+h2#swal2-title {
+    font-size: 25px;
+}
+
+table {
+    margin: 0 auto !important;
+    width: 1045px !important;
+    margin-top: 20px !important;
+}

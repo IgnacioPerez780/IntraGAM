@@ -1,0 +1,43 @@
+/* body {
+	background: linear-gradient(-45deg, rgba(0, 113, 206, 0.541), rgba(73, 78, 84, 0.541), rgba(242, 114, 23, 0.541), rgba(244, 228, 7, 0.541));
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+} */
+
+/* estilos para el body en general */
+body {
+	background-image: url("../img/fondoIntraGAM.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+/* estilos para los botones */
+button {
+	background-color: transparent;
+	border: none;
+	outline: none;
+	font-family: 'Arial Narrow', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: 3px;
+}
+
+/* estilos para tablas */
+table {
+	border-collapse: separate;
+	border-spacing: 7px 7px;
+}

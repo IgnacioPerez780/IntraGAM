@@ -1,0 +1,108 @@
+/* Td para gastos medicos */
+
+#td_gmm_consultor {
+    background-color: rgb(57 124 157);
+    border: 2px solid #d0d0d0;
+    border-style: none;
+    transition: .2s ease;
+    color: white;
+    border-radius: 25px;
+    width: 500.5px !important;
+    border-radius: 50px;
+}
+
+#td_gmm_consultor:hover {
+    background-color: #3e9ed0b8;
+    box-shadow: 0 4px 16px rgb(57 124 157);
+    transition: all 0.2s ease;
+}
+
+
+/* Td para vida */
+
+#td_vida_consultor {
+    background-color: rgb(70 157 74);
+    border: 2px solid #d0d0d0;
+    border-style: none;
+    transition: .2s ease;
+    color: white;
+    border-radius: 25px;
+    width: 333.6px !important;
+    border-radius: 50px;
+}
+
+#td_vida_consultor:hover {
+    background-color: #5cd042;
+    box-shadow: 0 4px 16px rgb(70 157 74);
+    transition: all 0.2s ease;
+}
+
+
+/* Td para siniestros */
+
+#td_siniestros_consultor {
+    background-color: rgb(193 186 68);
+    border: 2px solid #d0d0d0;
+    color: white;
+    border-style: none;
+    transition: .2s ease;
+    border-radius: 25px;
+    width: 333.6px !important;
+    border-radius: 50px;
+}
+
+#td_siniestros_consultor:hover {
+    background-color: #eae052;
+    box-shadow: 0 4px 16px rgb(193 186 68);
+    transition: all 0.2s ease;
+}
+
+
+/* Td para autos */
+
+#td_autos_consultor {
+    background-color: rgb(166 102 37);
+    border: 2px solid #d0d0d0;
+    border-style: none;
+    transition: .2s ease;
+    color: rgb(122, 122, 113) !important;
+    border-radius: 25px;
+    width: 333.6px !important;
+    border-radius: 50px;
+}
+
+#td_autos_consultor:hover {
+    background-color: #d7742a;
+    box-shadow: 0 4px 16px rgb(166 102 37);
+    transition: all 0.2s ease;
+}
+
+
+/* Td para material de apoyo */
+
+#td_apoyo_consultor {
+    background-color: rgb(93 120 127);
+    border: 2px solid #d0d0d0;
+    border-style: none;
+    transition: .2s ease;
+    color: white;
+    border-radius: 25px;
+    outline: none;
+    width: 504.6px !important;
+    border-radius: 50px;
+}
+
+#td_apoyo_consultor:hover {
+    background-color: #5a84a8;
+    box-shadow: 0 4px 16px rgb(93 120 127);
+    transition: all 0.2s ease;
+}
+
+
+/* Tamanio y centralizacion de la tabla */
+
+table {
+    margin: 0 auto !important;
+    width: 1045px !important;
+    margin-top: 20px !important;
+}

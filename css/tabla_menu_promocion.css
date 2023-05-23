@@ -1,0 +1,133 @@
+/* Td seccion vida */
+
+#td_vida_p {
+    background-color: rgb(70 157 74);
+    border: 2px solid #d0d0d0;
+    color: white;
+    border-style: none;
+    transition: .2s ease;
+    border-radius: 50px;
+    width: 288px;
+}
+
+#td_vida_p:hover {
+    background-color: #5cd042;
+    box-shadow: 0 4px 16px rgb(70 157 74);
+    transition: all 0.2s ease;
+}
+
+
+/* Td seccion siniestro */
+
+#td_siniestros_p {
+    background-color: rgb(193 186 68);
+    border: 2px solid #d0d0d0;
+    border-style: none;
+    transition: .2s ease;
+    color: rgb(122, 122, 113);
+    border-radius: 50px;
+    outline: none;
+    width: 339px !important;
+}
+
+#td_siniestros_p:hover {
+    background-color: #eae052;
+    box-shadow: 0 4px 16px rgb(193 186 68);
+    transition: all 0.2s ease;
+}
+
+
+/* Td seccion autos */
+
+#td_autos_p {
+    background-color: rgb(166 102 37);
+    border: 2px solid #d0d0d0;
+    border-style: none;
+    transition: .2s ease;
+    color: white;
+    border-radius: 50px;
+    outline: none;
+    width: 440px;
+}
+
+#td_autos_p:hover {
+    background-color: #d7742a;
+    box-shadow: 0 4px 16px rgb(166 102 37);
+    transition: all 0.2s ease;
+}
+
+
+/* Td seccion gastos medicos */
+
+#td_gmm_p {
+    background-color: rgb(57 124 157);
+    border: 2px solid #d0d0d0;
+    border-style: none;
+    transition: .2s ease;
+    color: white;
+    border-radius: 50px;
+    outline: none;
+}
+
+#td_gmm_p:hover {
+    background-color: #3e9ed0b8;
+    box-shadow: 0 4px 16px rgb(57 124 157);
+    transition: all 0.2s ease;
+}
+
+
+/* Td seccion material de apoyo */
+
+#td_apoyo {
+    background-color: rgb(93 120 127);
+    border: 2px solid #d0d0d0;
+    border-style: none;
+    transition: .2s ease;
+    color: white;
+    border-radius: 50px;
+    outline: none;
+    width: 288px;
+    height: 310px;
+}
+
+#td_apoyo:hover {
+    background-color: #5a84a8;
+    box-shadow: 0 4px 16px rgb(93 120 127);
+    transition: all 0.2s ease;
+}
+
+
+/* Td seccion respaldos */
+
+#td_respaldosD {
+    background-color: rgb(62 68 106);
+    border: 2px solid #d0d0d0;
+    border-style: none;
+    transition: .2s ease;
+    border-radius: 50px;
+    color: white;
+    outline: none;
+    width: 288px;
+}
+
+#td_respaldosD:hover {
+    background-color: #26408a;
+    box-shadow: 0 4px 16px rgb(62 68 106);
+    transition: all 0.2s ease;
+}
+
+
+/* Tamanio de la fuente-alerta */
+
+h2#swal2-title {
+    font-size: 25px;
+}
+
+
+/* Tamanio y centralizacion de la tabla */
+
+table {
+    margin: 0 auto !important;
+    width: 1045px !important;
+    margin-top: 20px !important;
+}

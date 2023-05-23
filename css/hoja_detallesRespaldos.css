@@ -1,0 +1,287 @@
+/* estilos generales para el body, como color de fondo y tamaño del fondo  */
+html, body {
+    background-image: url("../img/fondoIntraGAM.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    width: 100%;
+    font-family: "Segoe UI Regular", "Segoe UI" !important;
+    padding: 0 !important;
+}
+
+/* tamaño del icono de intragam */
+
+.iconoIntra {
+    width: 30px !important;
+    margin-top: 11px !important;
+}
+
+/* SECCION / ULTIMOS CAMBIOS */
+
+.row {
+    float: right;
+    width: 410px !important;
+    background-color: transparent;
+    text-align: center;
+    margin: 20px;
+    margin-right: -100px !important;
+}
+
+/* estilos   */
+.ultimosC_prom {
+    background-color: rgb(113, 150, 208);
+    text-align: center;
+    border: 3px;
+    border-style: solid;
+    border-color: rgb(113, 150, 208);
+    color: #fff;
+    font-weight: bold;
+}
+
+.infoCambios_prom {
+    border: 3px;
+    border-style: solid;
+    border-color: rgb(113, 150, 208);
+    text-align: justify;
+}
+
+.datoModificado_prom {
+    float: right;
+    color: black;
+    font-style: oblique;
+    margin-top:10px;
+}
+
+/* estilos para la separacion , se pone transparente para que no se vea  */
+.separacion {
+    background-color: transparent;
+    text-align: center;
+}
+
+/* DATOS DEL RESPALDO */
+
+.datosAg_prom {
+    background-color: transparent;
+    float: left !important;
+    margin-left: -100px !important;
+    width: 75%;
+}
+/* estilos generales para todas las etiquetas h2  */
+h2 {
+    font-size: 35px;
+    color: rgb(85, 88, 89) !important;
+    font-weight: lighter;
+    text-align: justify;
+}
+/* estilos para el boton de editar */
+.btnEditar_prom {
+    border-radius: 5px;
+    background-color: Transparent;
+    border: none;
+}
+
+#_x31__x2C_5 {
+    margin-bottom: -15px !important;
+}
+
+/* TABLA CON INFORMACION / DATOS */
+
+.agente_prom {
+    font-size: 30px;
+    color: rgb(85, 88, 89) !important;
+    font-weight: lighter;
+    text-align: center !important;
+    background-color: rgb(113, 150, 208);
+    color: #fff !important;
+    vertical-align: middle !important;
+}
+/* estilos generales parA LAS TABLAS  */
+.tablaDatos_prom {
+    width: 55% !important;
+    float: left !important;
+    margin-left: -100px;
+    margin-top: 30px;
+}
+
+/* ESTILOS PARA LOS PARRAFOS */
+p {
+    font-size: 18px !important;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(85, 88, 89) !important;
+}
+
+.poliza_prom {
+    font-size: 18px !important;
+    text-align: center;
+}
+
+.prima_prom {
+    font-size: 18px !important;
+    text-align: center;
+}
+
+.vigencia_prom {
+    font-size: 18px !important;
+    text-align: center;
+}
+
+.coment_prom {
+    font-size: 17px !important;
+    text-align: justify;
+}
+
+/* estilos generales para los td de las tablas */ 
+td {
+    vertical-align: middle !important;
+}
+
+/* DATOS DE LOS ARCHIVOS */
+
+.tablaDatosA_prom {
+    width: 73% !important;
+    float: left !important;
+    margin-left: -100px;
+    margin-top: 20px;
+}
+
+.cabeceraT_prom {
+    text-align: center !important;
+    font-size: 16px;
+    font-weight: bold;
+    background: rgb(113, 150, 208) !important;
+    color: #fff;
+}
+
+.fechaCarga_prom {
+    text-align: center !important;
+    padding: 5px !important;
+    vertical-align: middle !important;
+    background: #fff;
+}
+
+.archivoCargado_prom {
+    text-align: center;
+    padding: 5px !important;
+    vertical-align: middle !important;
+    background: #fff;
+}
+
+.poliza_arch {
+    text-align: center;
+    padding: 5px !important;
+    vertical-align: middle !important;
+    background: #fff;
+}
+
+.eliminarA_prom {
+    background-color: transparent;
+    text-align: center;
+    padding: 5px !important;
+    vertical-align: middle !important;
+    background: #fff;
+}
+
+.btnEliminar_prom {
+    background-color: transparent;
+    border: none;
+    padding: 5px !important;
+}
+
+/* VISUALIZACION DE LOS ARCHIVOS */
+
+#ar {
+    margin-top: 30px;
+    width: 71.5% !important;
+    height: 480px !important;
+    float: left !important;
+    margin-left: -100px;
+}
+
+/* SUBIR ARCHIVOS */
+
+.panelSubirA_prom {
+    margin-top: 35px !important;
+    width: 400px;
+    background-color: transparent;
+    border-color: rgb(252, 180, 118);
+    border-width: 4px;
+    border-style: dashed;
+    margin-bottom: 35px !important;
+    height: 180px;
+    margin-left: -100px;
+}
+
+h4 {
+    text-align: center;
+    font-weight: bold !important;
+}
+
+.pane_body {
+    padding: 5px !important;
+}
+
+.btn.btn-primary {
+    outline: none !important;
+    background-color: rgb(113, 150, 208);
+    font-weight: lighter;
+    margin-top: 30px;
+}
+
+.selectArch_prom {
+    outline: none !important;
+}
+
+/* MODAL */
+
+.modal-content {
+    width: 420px !important;
+    position: absolute;
+    margin-top: 345px !important;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn.btn-info {
+    outline: none !important;
+    background-color: rgb(113, 150, 208);
+    font-weight: lighter;
+    margin-bottom: -15px !important;
+}
+
+input.btn.btn-danger {
+    outline: none !important;
+    font-weight: lighter;
+    margin-bottom: -15px !important;
+}
+/* etiqueta para el H5 */
+h5 {
+    font-weight: bold !important;
+    font-size: 16px !important;
+}
+/* estilo para el textarea */
+textarea {
+    outline: none !important;
+    resize: none;
+}
+
+/* estilos de texto para la etiqueta del modal */
+#myModalLabel {
+    text-align: justify;
+}
+
+/* ICONO DE USUARIO */
+
+.imgUsuario {
+    width: 40px;
+    height: 40px;
+    margin-top: -11px;
+    border-radius: 120px;
+}
+
+/* estilo para la imagen que se muestra del usuario*/
+.aImgUsuario {
+    margin-bottom: -10px;
+}

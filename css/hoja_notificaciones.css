@@ -1,0 +1,72 @@
+/* Estilo html y body */
+
+html,
+body {
+    background-image: url("../img/fondoIntraGAM.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    width: 100%;
+    font-family: "Segoe UI Regular", "Segoe UI" !important;
+}
+
+.iconoIntra {
+    width: 30px;
+    margin-top: 11px;
+}
+
+
+/* Estilo encabezado/celda */
+
+th {
+    background-color: rgb(113, 150, 208);
+    color: #fff;
+    font-weight: bold;
+}
+
+button#id {
+    outline: none !important;
+    text-decoration: none;
+}
+
+td {
+    text-align: center;
+    vertical-align: middle !important;
+    font-size: 11pt;
+    background: #f6f7f7;
+}
+
+a {
+    outline: none !important;
+}
+
+td.sorting {
+    background-color: rgb(113, 150, 208);
+    color: #fff;
+    font-weight: lighter;
+}
+
+td.sorting_desc {
+    background-color: rgb(113, 150, 208);
+    color: #fff;
+    font-weight: lighter;
+}
+
+.dataTables_empty {
+    text-align: left;
+}
+
+
+/* ICONO DE USUARIO */
+
+.imgUsuario {
+    width: 40px;
+    height: 40px;
+    margin-top: -11px;
+    border-radius: 120px;
+}
+
+.aImgUsuario {
+    margin-bottom: -10px;
+}

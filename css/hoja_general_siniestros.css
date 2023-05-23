@@ -1,0 +1,97 @@
+/* Estilo html y body */
+
+html,
+body {
+    background-image: url("../img/fondoIntraGAM.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-family: "Segoe UI Regular", "Segoe UI" !important;
+    padding: 0 !important;
+}
+
+
+/* Modificacion en la celda de las tablas */
+
+.tdSiniestros {
+    background-color: rgb(113, 150, 208);
+    text-align: center;
+    vertical-align: middle !important;
+    color: #fff;
+    font-weight: lighter;
+}
+
+td {
+    text-align: center;
+    vertical-align: middle !important;
+    font-size: 10pt;
+    background: #f6f7f7;
+}
+
+
+/* Estilos para etiquetas predefinidas */
+
+button.btn.btn-primary {
+    outline: none !important;
+    background-color: rgb(113, 150, 208);
+    font-weight: lighter;
+}
+
+small {
+    font-size: 11.5px;
+}
+
+.close {
+    outline: none;
+}
+
+#cancelar {
+    outline: none !important;
+}
+
+a {
+    outline: none !important;
+}
+
+select#tipo {
+    outline: none !important;
+}
+
+button#id {
+    outline: none !important;
+    text-decoration: none;
+}
+
+button#aceptar_s {
+    outline: none !important;
+}
+
+.iconoIntra {
+    width: 30px !important;
+    margin-top: 11px !important;
+}
+
+#myModalLabel {
+    font-weight: bold;
+}
+
+
+/* ALERTAS */
+
+.Custom_Cancel>.sa-button-container>.cancel {
+    background-color: rgb(85, 88, 89);
+}
+
+
+/* ICONO DE USUARIO */
+
+.imgUsuario {
+    width: 40px;
+    height: 40px;
+    margin-top: -11px;
+    border-radius: 120px;
+}
+
+.aImgUsuario {
+    margin-bottom: -10px;
+}

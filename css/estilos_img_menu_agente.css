@@ -1,0 +1,74 @@
+/* imagen de vida  */
+.img_vida {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 149.6px;
+    height: 150px;
+}
+/* imagen de gmm */
+.img_gmm {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 10px !important;
+    width: 149.6px;
+    height: 150px;
+}
+/* imagen de descarga  */
+
+.img_descarga {
+    display: flex;
+    margin: 0 auto;
+    width: 149.6px;
+    height: 150px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+/* imagen de apoyo  */
+.img_m_apoyo {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 149.6px;
+    height: 150px;
+}
+/* imagen de siniestros */
+.img_siniestros {
+    display: flex;
+    margin: 0 auto;
+    width: 149.6px;
+    height: 150px;
+}
+/* imagen de autos */
+.img_auto {
+    display: flex;
+    margin: 0 auto;
+    width: 149.6px;
+    height: 150px;
+}
+
+/* comienzan los estilos para los divs*/
+.div_vida {
+    margin-top: 100px;
+}
+
+.div_apoyo {
+    margin-top: 60px;
+}
+
+.div_descarga {
+    margin-top: 60px;
+}
+
+label {
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+
+.labelSiniestros {
+    font-size: 20px;
+    letter-spacing: 5px;
+    color: #fff;
+}

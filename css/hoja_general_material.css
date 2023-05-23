@@ -1,0 +1,287 @@
+/* Estilo html y body */
+
+html,
+body {
+    background-image: url("../img/fondoIntraGAM.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    width: 100%;
+    font-family: "Segoe UI Regular", "Segoe UI" !important;
+    padding: 0 !important;
+}
+
+
+/* Estilo boton  */
+
+.btn-primary {
+    outline: none !important;
+    background-color: rgb(113, 150, 208);
+    font-weight: lighter;
+}
+
+.iconoIntra {
+    width: 30px !important;
+    margin-top: 11px !important;
+}
+
+
+/* TABLAS / Seccion por tabla para subir material */
+
+#tablaCamp {
+    margin: 0 auto;
+    empty-cells: hide;
+    border-collapse: separate;
+    border-spacing: 5px;
+    width: 1000px;
+}
+
+#tablaCampC {
+    empty-cells: hide;
+    border-collapse: separate;
+    border-spacing: 5px;
+    margin: 0 auto;
+    background: #FFFFFF;
+}
+
+#tablaCirGmm {
+    margin-top: 30px !important;
+    margin: 0 auto;
+    empty-cells: hide;
+    border-collapse: separate;
+    border-spacing: 5px;
+    width: 1000px;
+}
+
+#tablaCirGmmC {
+    empty-cells: hide;
+    border-collapse: separate;
+    border-spacing: 5px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background: #FFFFFF;
+}
+
+#tablaCirVida {
+    margin-top: 30px !important;
+    margin: 0 auto;
+    empty-cells: hide;
+    border-collapse: separate;
+    border-spacing: 5px;
+    width: 1000px;
+}
+
+#tablaCirVidaC {
+    empty-cells: hide;
+    border-collapse: separate;
+    border-spacing: 5px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background: #FFFFFF;
+}
+
+#tablaOtros {
+    margin-top: 30px !important;
+    margin: 0 auto;
+    empty-cells: hide;
+    border-collapse: separate;
+    border-spacing: 5px;
+    width: 1000px;
+}
+
+#tablaOtrosC {
+    empty-cells: hide;
+    border-collapse: separate;
+    border-spacing: 5px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background: #FFFFFF;
+}
+
+#tablaInfoA {
+    margin-top: 30px !important;
+    margin: 0 auto;
+    empty-cells: hide;
+    border-collapse: separate;
+    border-spacing: 5px;
+    margin-bottom: 3%;
+    width: 1000px;
+}
+
+#tablaComentarios {
+    margin-top: 30px !important;
+    empty-cells: hide;
+    border-collapse: separate;
+    border-spacing: 2px;
+    margin-bottom: 3% !important;
+    background: #FFFFFF;
+    margin: 0 auto;
+}
+
+
+/* Modificacion en la celda de las tablas */
+
+.tdVer {
+    background-color: rgb(85, 88, 89);
+    color: #fff;
+    width: 124px;
+}
+
+.tdDescargar {
+    background-color: rgb(85, 88, 89);
+    color: #fff;
+    width: 124px;
+}
+
+.tdArchivo {
+    background-color: rgb(85, 88, 89);
+    color: #fff;
+}
+
+.tdEliminar {
+    background-color: rgb(85, 88, 89);
+    color: #fff;
+    width: 124px;
+}
+
+.titulo {
+    color: #FFFFFF;
+    letter-spacing: 2pt;
+}
+
+#cargarInfo {
+    margin-top: 20px;
+}
+
+.infoAgregar {
+    margin-top: 30px;
+}
+
+textarea {
+    height: 80px;
+    resize: none;
+    outline: 0 none;
+    border-color: rgb(255, 255, 255);
+    border-radius: 8px 8px 8px 8px;
+}
+
+#comentario {
+    width: 630px !important;
+    letter-spacing: 1px;
+}
+
+.info {
+    width: 200px;
+    background-color: #dad4d3 !important;
+}
+
+.comenAgregar {
+    width: 190px;
+    background-color: #dad4d3 !important;
+}
+
+#archivo {
+    outline: none;
+}
+
+
+/* COLORES PARA IDENTIFICAR CADA TABLA */
+
+.tdCampania {
+    background-color: rgb(113, 150, 208);
+}
+
+.tdCircularGmm {
+    background-color: rgb(252, 180, 118);
+}
+
+.tdCircularVida {
+    background-color: rgb(113, 150, 208);
+}
+
+.tdOtros {
+    background-color: rgb(252, 180, 118);
+}
+
+.tdInfoAdicional {
+    background-color: rgb(113, 150, 208);
+}
+
+
+/* SECCION CARGAR NNUEVO METERIAL */
+
+.tdCargarNuvC {
+    background-color: rgb(85, 88, 89);
+}
+
+.tdCargarNuvG {
+    background-color: rgb(85, 88, 89);
+}
+
+.tdCargarNuvV {
+    background-color: rgb(85, 88, 89);
+}
+
+.tdCargarNuvO {
+    background-color: rgb(85, 88, 89);
+    width: 50px !important;
+}
+
+.eliminarComent {
+    width: 130px !important;
+    background-color: rgb(85, 88, 89);
+    color: #fff;
+}
+
+.iconoIntra {
+    margin-top: 11px !important;
+}
+
+#cargarInfo {
+    outline: none !important;
+}
+
+.usuarioC {
+    background-color: rgb(85, 88, 89);
+    color: #fff;
+}
+
+.gamInformaC {
+    background-color: rgb(85, 88, 89);
+    color: #fff;
+}
+
+.fechaHoraC {
+    background-color: rgb(85, 88, 89);
+    color: #fff;
+}
+
+.usuario {
+    background-color: rgb(85, 88, 89);
+    color: #fff;
+}
+
+.gamInforma {
+    background-color: rgb(85, 88, 89);
+    color: #fff;
+}
+
+.fechaHora {
+    background-color: rgb(85, 88, 89);
+    color: #fff;
+}
+
+
+/* ICONO DE USUARIO */
+
+.imgUsuario {
+    width: 40px;
+    height: 40px;
+    margin-top: -11px;
+    border-radius: 120px;
+}
+
+.aImgUsuario {
+    margin-bottom: -10px;
+}

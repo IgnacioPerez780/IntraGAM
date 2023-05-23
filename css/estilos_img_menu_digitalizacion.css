@@ -1,0 +1,95 @@
+/*  estido para la imagen de vida*/
+.img_vida {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 22px;
+    width: 149.6px;
+    height: 150px;
+}
+
+/*  estido para la imagen de gmm*/
+.img_gmm {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 10px !important;
+    width: 149.6px;
+    height: 150px;
+}
+
+/*  estido para la imagen de digitalizacion*/
+.img_m_digitalizacion {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 15px;
+    width: 149.6px;
+    height: 150px;
+}
+
+/*  estido para la imagen de siniestros*/
+.img_siniestros {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 149.6px;
+    height: 150px;
+}
+
+/*  estido para la imagen de autos*/
+.img_auto {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 22px;
+    width: 149.6px;
+    height: 150px;
+}
+
+
+/* estilos para cada div */
+.div_vida {
+    margin-top: 60px;
+    height: 230px;
+}
+
+.div_siniestros {
+    margin-top: 60px;
+    height: 230px;
+}
+
+.div_descarga {
+    margin-top: 80px;
+}
+
+.div_apoyo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.div_digitalizacion {
+    margin-top: 15px;
+}
+
+.div_gmm {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.div_auto {
+    margin-top: 60px;
+    height: 230px;
+}
+
+.div_pymes {
+    margin-top: 5px;
+}
+
+label {
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+
+.labelSiniestros {
+    font-size: 20px;
+    letter-spacing: 4px;
+    color: #fff;
+    font-weight: bold;
+}
